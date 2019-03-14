@@ -92,10 +92,13 @@
 ////}
 
 .header {
-  background-color: darkred;
+  background-color: transparent;
   justify-content: space-between;
   align-items: center;
-
+  position : absolute;
+  right:0;
+  left:0;
+  z-index:  1;
 
   &__content {
     .content-right {

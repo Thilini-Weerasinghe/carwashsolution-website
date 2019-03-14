@@ -1,0 +1,118 @@
+.solution {
+
+ &__title {
+   padding-left:30px;
+   opacity: 0.1;
+   h1 {
+     text-transform: uppercase;
+     color: #1165DC;
+     text-align: left;
+     font-size: 130px;
+   }
+ }
+
+   &__content {
+     padding-left:30px;
+     h3 {
+       color :#1165DC;
+       font-size : 40px;
+     }
+
+     ol {
+       line-height: 2.5;
+       font-size: 18px;
+     }
+
+a {
+  text-transform: uppercase;
+  font-size: 30px;
+  color:#1165DC;
+}
+   }
+}
+
+.instructions {
+  text-align: center;
+  &__title {
+    opacity:0.1;
+    h1 {
+      font-size: 130px;
+      color :#1165DC;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+  &__subtitle {
+   h3 {
+     font-size: 40px;
+     color :#1165DC;
+     text-align: center;
+   }
+  }
+
+  .steps {
+    text-align: center;
+    padding-top:50px;
+     h4 {
+       font-size: 40px;
+       color :#1165DC;
+       text-align: center;
+     }
+    a {
+      text-transform: uppercase;
+      font-size: 30px;
+      color:#1165DC;
+      text-align: center;
+    }
+  }
+}
+
+.products {
+  margin-top:100px;
+  text-align: -webkit-right;
+  .video-link {
+    text-align: right;
+    a {
+      text-transform: uppercase;
+      font-size: 20px;
+      color:#1165DC;
+    }
+  }
+
+  &__title {
+    padding-top:30px;
+    text-align: right;
+    width:31%;
+    h3 {
+      color:#1165DC !important;
+      //text-align: right;
+      font-size: 40px;
+    }
+  }
+
+  &__content {
+    font-size: 18px;
+    width:30%;
+  }
+
+  &__left-image {
+    width:40%;
+    position:relative;
+    background-position: right;
+    right:0;
+    height:535px;
+    z-index: 0;
+    @include bg-image
+  }
+
+  &__right-image {
+    width:43%;
+    position:absolute;
+    background-position: left;
+    left:0;
+    height:620px;
+   // z-index: 0;
+    @include bg-image
+  }
+}
