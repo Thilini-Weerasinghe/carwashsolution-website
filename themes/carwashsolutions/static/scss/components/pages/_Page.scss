@@ -96,7 +96,7 @@ a {
     width:30%;
   }
 
-  &__left-image {
+  &__right-image {
     width:40%;
     position:relative;
     background-position: right;
@@ -106,12 +106,12 @@ a {
     @include bg-image
   }
 
-  &__right-image {
+  &__left-image {
     width:43%;
     position:absolute;
     background-position: left;
     left:0;
-    height:620px;
+    height:650px;
    // z-index: 0;
     @include bg-image
   }

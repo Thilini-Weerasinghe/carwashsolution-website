@@ -73,7 +73,7 @@
 
 <div class="products block">
     <div class="grid-container">
-        <div class="products__right-image"
+        <div class="products__left-image"
              style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/car.png')');"
              data-src="$resourceURL('themes/carwashsolutions/static/images/cms/car.png')">
         </div>
@@ -88,7 +88,7 @@
             <p> Carwash Solutions is the exclusive distributor for Sonny's The Car Wash Factory, across Australia
                 and New Zealand, giving you access to the complete equipment range from a world leader in car wash machinery.</p>
         </div>
-        <div class="products__left-image"
+        <div class="products__right-image"
                  style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/brush.png')');"
                  data-src="$resourceURL('themes/carwashsolutions/static/images/cms/brush.png')">
     </div>

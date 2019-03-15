@@ -25,7 +25,7 @@
 
 
         </div>
-
+        <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
         <script src="$resourceURL('themes/carwashsolutions/static/dist/foundation.min.js')"></script>
         <script src="$resourceURL('themes/carwashsolutions/static/js/thirdparty/typeahead.bundle.js')"></script>
         <script src="$resourceURL('themes/carwashsolutions/static/dist/common.min.js')"></script>
