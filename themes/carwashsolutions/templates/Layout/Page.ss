@@ -17,6 +17,10 @@
 </div>
 
 <div class="solution block ">
+    <div class="solution__right-image"
+         style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/image-1.png')');"
+         data-src="$resourceURL('themes/carwashsolutions/static/images/cms/image-1.png')">
+    </div>
     <div class="grid-container">
         <div class="solution__title">
             <h1>solution</h1>
