@@ -34,8 +34,46 @@
     }
   }
 
+  @include breakpoint(medium) {
+
+    &__content {
+      position: relative;
+      padding-top: 15%;
+      padding-left: 50px;
+
+      h1 {
+        font-size: 70px;
+        width: 60%;
+      }
+
+      p {
+        font-size: 40px;
+        font-weight: bold;
+        width: 30%;
+        color: $white;
+      }
+    }
+  }
+
   @include breakpoint(large) {
 
+    &__content {
+      position: relative;
+      padding-top: 15%;
+      padding-left: 50px;
+
+      h1 {
+        font-size: 70px;
+        width: 60%;
+      }
+
+      p {
+        font-size: 40px;
+        font-weight: bold;
+        width: 30%;
+        color: $white;
+      }
+    }
   }
 }
 

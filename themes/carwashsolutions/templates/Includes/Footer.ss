@@ -9,7 +9,7 @@
     </div>
     <div class="footer__content ">
         <div class="grid-container grid-x ">
-            <div class="cell small-6 medium-6 large-6 ">
+            <div class="cell small-12 medium-6 large-6 ">
                 <div class="footer__content-logo">
                     <ul>
                         <li><a href="#"><img src="{$ThemeDir}/static/images/cms/sonnys-logo.png"></a></li>
@@ -18,7 +18,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="cell small-6 medium-6 large-6 ">
+            <div class="cell small-12 medium-6 large-6 ">
                 <div class="footer__content-social-link">
                     <ul>
                         <li><a href="#"> <i class="fab fa-facebook-f"></i> </a></li>

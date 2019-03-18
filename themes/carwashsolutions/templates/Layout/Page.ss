@@ -95,7 +95,7 @@
         <div class="products__right-image"
                  style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/brush.png')');"
                  data-src="$resourceURL('themes/carwashsolutions/static/images/cms/brush.png')">
-    </div>
+         </div>
     </div>
 </div>
 

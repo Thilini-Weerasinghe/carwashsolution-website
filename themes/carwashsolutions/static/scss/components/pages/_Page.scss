@@ -7,16 +7,16 @@
      text-transform: uppercase;
      color: #1165DC;
      text-align: left;
-     font-size: 130px;
+     font-size: 45px;
    }
  }
 
   &__right-image {
-    width:38%;
-    position:absolute;
+    width:70%;
+    position:relative;
     background-position: right;
     right:0;
-    height:600px;
+    height:285px;
     z-index: 0;
     @include bg-image
   }
@@ -46,7 +46,7 @@ a {
   &__title {
     opacity:0.1;
     h1 {
-      font-size: 130px;
+      font-size: 50px;
       color :#1165DC;
       text-align: center;
       text-transform: uppercase;
@@ -65,13 +65,13 @@ a {
     text-align: center;
     padding-top:50px;
      h4 {
-       font-size: 40px;
+       font-size: 25px;
        color :#1165DC;
        text-align: center;
      }
     a {
       text-transform: uppercase;
-      font-size: 30px;
+      font-size: 20px;
       color:#1165DC;
       text-align: center;
     }
@@ -79,50 +79,218 @@ a {
 }
 
 .products {
-  margin-top:100px;
+  margin-top: 100px;
   text-align: -webkit-right;
   .video-link {
     text-align: right;
     a {
       text-transform: uppercase;
       font-size: 20px;
-      color:#1165DC;
+      color: #1165DC;
     }
   }
 
   &__title {
-    padding-top:30px;
+    padding-top: 30px;
     text-align: right;
-    width:31%;
+    width: 70%;
     h3 {
-      color:#1165DC !important;
-      //text-align: right;
-      font-size: 40px;
+      font-size: 30px;
+      color: #1165DC !important;
     }
   }
 
   &__content {
     font-size: 18px;
-    width:30%;
+    width: 80%;
   }
 
   &__right-image {
-    width:40%;
-    position:relative;
+    width: 100%;
+    position: relative;
+    height: 315px;
     background-position: right;
-    right:0;
-    height:535px;
+    right: 0;
     z-index: 0;
     @include bg-image
   }
 
   &__left-image {
-    width:43%;
-    position:absolute;
+    width: 100%;
+    position: relative;
     background-position: left;
-    left:0;
-    height:650px;
-   // z-index: 0;
+    left: 0;
+    height: 300px;
     @include bg-image
   }
 }
+
+  @include breakpoint(medium) {
+
+    .solution {
+
+      &__title {
+        padding-left:30px;
+        opacity: 0.1;
+        h1 {
+          text-align: left;
+          font-size: 80px;
+        }
+      }
+
+      &__right-image {
+        width:40%;
+        position:absolute;
+        height: 355px;
+      }
+
+      &__content {
+        padding-left:30px;
+        h3 {
+          font-size : 40px;
+        }
+
+        ol {
+          line-height: 2.5;
+          font-size: 18px;
+        }
+
+        a {
+          font-size: 30px;
+        }
+      }
+    }
+
+    .products {
+
+      &__title {
+        padding-top: 30px;
+        text-align: right;
+        width: 31%;
+        h3 {
+          font-size: 40px;
+        }
+      }
+
+      &__content {
+        font-size: 18px;
+        width: 30%;
+      }
+
+      &__right-image {
+        width: 50%;
+        position: relative;
+        height: 315px;
+      }
+
+      &__left-image {
+        width: 70%;
+        position: absolute;
+        height: 445px;
+      }
+    }
+  }
+  @include breakpoint(large) {
+    .solution {
+
+      &__title {
+        padding-left:30px;
+        h1 {
+          text-align: left;
+          font-size: 130px;
+        }
+      }
+
+      &__right-image {
+        width:40%;
+        position:absolute;
+        height:600px;
+      }
+
+      &__content {
+        padding-left:30px;
+        h3 {
+          font-size : 40px;
+        }
+
+        ol {
+          line-height: 2.5;
+          font-size: 18px;
+        }
+
+        a {
+          font-size: 30px;
+        }
+      }
+    }
+
+    .instructions {
+      text-align: center;
+      &__title {
+        opacity:0.1;
+        h1 {
+          font-size: 130px;
+          text-align: center;
+        }
+      }
+
+      &__subtitle {
+        h3 {
+          font-size: 40px;
+          text-align: center;
+        }
+      }
+
+      .steps {
+        text-align: center;
+        padding-top:50px;
+        h4 {
+          font-size: 40px;
+          text-align: center;
+        }
+        a {
+          font-size: 30px;
+          text-align: center;
+        }
+      }
+    }
+
+
+    .products {
+      margin-top: 100px;
+      text-align: -webkit-right;
+      .video-link {
+        text-align: right;
+        a {
+
+        }
+      }
+
+      &__title {
+        padding-top: 30px;
+        text-align: right;
+        width: 31%;
+        h3 {
+          font-size: 40px;
+        }
+      }
+
+      &__content {
+        font-size: 18px;
+        width: 30%;
+      }
+
+      &__right-image {
+        width: 40%;
+        position: relative;
+        height:535px;
+      }
+
+      &__left-image {
+        width: 43%;
+        position: absolute;
+        height: 650px;
+      }
+    }
+  }
+
