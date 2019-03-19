@@ -26,10 +26,9 @@
     z-index: 1;
     color :$white;
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
     width:100%;
     padding: 30px 20px;
-    padding-top: 45px;
     p{
       text-align: center;
     }
@@ -49,16 +48,16 @@
     height:auto;
 
     &-logo {
-      //text-align:left;
       ul {
+        margin-left: 0px;
         li {
           list-style:none;
           display:inline-block;
           margin-left:20px;
 
           img {
-            width:90px;
-            height:50px;
+            width: 70px;
+            height: 40px;
             max-width: 100%;
           }
         }
@@ -100,6 +99,7 @@
 
   @include breakpoint(large) {
     &__top-content {
+      font-size: 25px;
       p{
         width:50%;
         text-align: center;
@@ -122,8 +122,6 @@
               max-width: 100%;
             }
           }
-
-
         }
       }
 
@@ -145,8 +143,6 @@
           }
         }
       }
-
-
     }
   }
 }
