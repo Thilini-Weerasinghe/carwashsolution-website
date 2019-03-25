@@ -1,11 +1,10 @@
-.footer{
+.footer {
   text-align: center;
   padding-top: 5px;
   position: relative;
   width: 100%;
   min-height: 800px;
-  height:auto;
-
+  height: auto;
 
   &__image {
     position: absolute;
@@ -13,7 +12,7 @@
     top: 0;
     width: 100%;
     min-height: 800px;
-    height:auto;
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -22,14 +21,14 @@
   }
 
   &__top-content {
-    position:absolute;
+    position: absolute;
     z-index: 1;
-    color :$white;
+    color: $white;
     text-align: center;
     font-size: 15px;
-    width:100%;
+    width: 100%;
     padding: 30px 20px;
-    p{
+    p {
       text-align: center;
     }
     .p1 {
@@ -38,22 +37,22 @@
     }
   }
   &__content {
-    padding: 20px 0 ;
-    position:absolute;
+    padding: 20px 0;
+    position: absolute;
     z-index: 1;
-    bottom:0;
+    bottom: 0;
     width: 100%;
     background-color: #0F2854;
     min-height: 150px;
-    height:auto;
+    height: auto;
 
     &-logo {
       ul {
         margin-left: 0px;
         li {
-          list-style:none;
-          display:inline-block;
-          margin-left:20px;
+          list-style: none;
+          display: inline-block;
+          margin-left: 20px;
 
           img {
             width: 70px;
@@ -63,19 +62,18 @@
         }
 
         li:first-child {
-          margin-left:0;
+          margin-left: 0;
         }
       }
     }
 
     &-social-link {
-      //text-align: right;
       font-size: 25px;
-      ul{
+      ul {
         li {
           list-style: none;
-          display:inline-block;
-          margin-left:30px;
+          display: inline-block;
+          margin-left: 30px;
         }
       }
     }
@@ -83,25 +81,29 @@
     &-link {
       text-align: left;
       p {
-        color:$white;
+        color: $white;
       }
       ul {
         li {
           list-style: none;
-          display:inline-block;
+          display: inline-block;
         }
       }
     }
   }
-@include breakpoint(medium) {
 
-}
+  @include breakpoint(medium) {
+    &__top-content {
+      font-size: 35px;
+    }
+  }
 
   @include breakpoint(large) {
     &__top-content {
-      font-size: 25px;
-      p{
-        width:50%;
+      font-size: 40px;
+      padding-left: 22%;
+      p {
+        width: 50%;
         text-align: center;
       }
       .p1 {
@@ -110,15 +112,15 @@
     }
     &__content {
       &-logo {
-        text-align:left;
+        text-align: left;
         ul {
           li {
-            display:inline-block;
-            margin-left:30px;
+            display: inline-block;
+            margin-left: 30px;
 
             img {
-              width:150px;
-              height:50px;
+              width: 150px;
+              height: 50px;
               max-width: 100%;
             }
           }
@@ -128,10 +130,10 @@
       &-social-link {
         text-align: right;
         font-size: 25px;
-        ul{
+        ul {
           li {
-            display:inline-block;
-            margin-left:30px;
+            display: inline-block;
+            margin-left: 30px;
           }
         }
       }
@@ -139,7 +141,7 @@
       &-link {
         ul {
           li {
-            display:inline-block;
+            display: inline-block;
           }
         }
       }
