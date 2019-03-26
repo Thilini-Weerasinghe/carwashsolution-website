@@ -1,27 +1,100 @@
 .reasons {
+  text-align: left;
   .number {
     font-size:50px;
-    text-align: center;
+    text-align:left;
     color:#1165DC;
+    p {
+      width:100%;
+      text-align: left;
+    }
   &__opt-num {
   opacity : 0.1;
     text-align: left;
 }
   }
 
-  &__title {
-    text-align: center;
-  }
-  .text {
-    text-align: center;
-    .number {
-      text-align: center;
+  &__content {
+    font-size: 15px;
+    p {
+      width: 70%;
+      text-align: left;
+    }
+
+    img {
+      padding: 10px 0;
     }
   }
 
+  &__title {
+    text-align: left;
+  }
+  .text {
+    padding-left: 20%;
+    text-align: right;
+    .number {
+      p {
+        width:100%;
+        text-align: right;
+      }
+    }
+
+    p {
+      text-align: right;
+      width:100%;
+    }
+  }
+
+  &__left-image {
+    width:53%;
+    position:relative;
+    height: 240px;
+    background-position: left;
+    left: 0;
+    z-index: 1;
+    @include bg-image
+  }
+@include breakpoint(medium) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  &__content {
+    img {
+      padding: 0 10px;
+    }
+  }
+
+  &__left-image {
+    width:30%;
+    height: 350px;
+  }
+
+}
   @include breakpoint(large) {
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    &__content {
+      img {
+        padding: 20px 10px;
+      }
+    }
     .number {
       font-size:150px;
+      text-align: center;
+      p {
+        width:100%;
+        text-align: left;
+      }
+      &__opt-num {
+        opacity : 0.1;
+        text-align: left;
+      }
+    }
+    .cell {
+      padding : 40px 0;
     }
   }
 }

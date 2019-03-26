@@ -24,8 +24,9 @@
       h2{
         text-transform:uppercase;
         text-align: right;
-        font-size: 13px;
+        font-size: 8px;
         color :$white;
+        padding-right: 20px;
       }
 
   .line {
@@ -50,7 +51,7 @@
   }
 
   &.hamburger {
-    width: 25px;
+    width: 15px;
     height: 18px;
     display: block;
     position: relative;
@@ -68,7 +69,7 @@
         }
 
         h2{
-
+font-size: 15px;
         }
       }
     }
@@ -102,5 +103,12 @@
 
   &.subheader {
 position: relative;
+    background-color: #09336e;
+
+    img {
+      width:500px;
+      max-width: 100%;
+      height:auto;
+    }
   }
 }
