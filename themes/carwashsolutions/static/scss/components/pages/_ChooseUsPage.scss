@@ -1,0 +1,27 @@
+.reasons {
+  .number {
+    font-size:50px;
+    text-align: center;
+    color:#1165DC;
+  &__opt-num {
+  opacity : 0.1;
+    text-align: left;
+}
+  }
+
+  &__title {
+    text-align: center;
+  }
+  .text {
+    text-align: center;
+    .number {
+      text-align: center;
+    }
+  }
+
+  @include breakpoint(large) {
+    .number {
+      font-size:150px;
+    }
+  }
+}

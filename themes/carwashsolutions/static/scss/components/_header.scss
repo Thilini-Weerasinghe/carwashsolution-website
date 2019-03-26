@@ -25,6 +25,7 @@
         text-transform:uppercase;
         text-align: right;
         font-size: 13px;
+        color :$white;
       }
 
   .line {
@@ -100,6 +101,6 @@
   }
 
   &.subheader {
-
+position: relative;
   }
 }
