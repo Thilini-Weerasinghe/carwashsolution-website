@@ -1,8 +1,12 @@
 .mobile-menu {
-  background: get-color('secondary');
+  background: get-color('primary');
   z-index: 2;
-  width:100%;
+  width: 100%;
+  height: 600px;
 
+  &__content {
+    flex-direction: column-reverse;
+  }
   ul {
     padding-top: 1rem;
 
@@ -12,10 +16,69 @@
   }
 
   a {
-    color: red;
+    color: get-color('success');
 
     &:hover {
       opacity: 0.6;
     }
+  }
+  .left-content {
+    position: relative;
+    min-height: 600px;
+    height: auto;
+    width: 100%;
+
+    .image {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      @include bg-image
+    }
+    &__top-text {
+      padding:10% 20%;
+      position: relative;
+      z-index: 3;
+      h2, h3 {
+        text-transform: uppercase;
+        color: $white;
+      }
+    }
+
+    &__bottom-text {
+      padding:10% 20%;
+      position: relative;
+      z-index: 3;
+      color:white;
+      font-size:15px;
+      h2 {
+        color:white;
+      }
+      .social-link {
+        font-size: 25px;
+          li {
+            list-style:none;
+            display:inline-block;
+            margin-left: 30px;
+            a {
+              color:white;
+            }
+          }
+        li:first-child {
+          margin-left:0;
+        }
+      }
+    }
+  }
+
+  @include breakpoint(medium) {
+    &__content {
+      flex-direction: row;
+    }
+  }
+  @include breakpoint(large) {
+
   }
 }

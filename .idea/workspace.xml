@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/_mobile-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/_mobile-menu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/carwashsolutions/static/sourcemaps/app.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/sourcemaps/app.min.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/MobileMenu.ss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/MobileMenu.ss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/ContentPage.ss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/ContentPage.ss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +29,8 @@
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.41" value="2" />
           <entry key="project.open.time.47" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,9 +38,9 @@
           <entry key="gitignore" value="1" />
           <entry key="js" value="1" />
           <entry key="json" value="1" />
-          <entry key="php" value="10" />
-          <entry key="scss" value="29" />
-          <entry key="ss" value="18" />
+          <entry key="php" value="11" />
+          <entry key="scss" value="32" />
+          <entry key="ss" value="20" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -48,10 +48,10 @@
         <counts>
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="10" />
+          <entry key="PHP" value="11" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="29" />
-          <entry key="SilverStripe" value="18" />
+          <entry key="SCSS" value="32" />
+          <entry key="SilverStripe" value="20" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -60,8 +60,8 @@
           <entry key="gitignore" value="43" />
           <entry key="json" value="2" />
           <entry key="php" value="99" />
-          <entry key="scss" value="3266" />
-          <entry key="ss" value="3115" />
+          <entry key="scss" value="3815" />
+          <entry key="ss" value="3350" />
           <entry key="yml" value="16" />
         </counts>
       </usages-collector>
@@ -70,8 +70,8 @@
           <entry key="JSON" value="2" />
           <entry key="PHP" value="99" />
           <entry key="PLAIN_TEXT" value="43" />
-          <entry key="SCSS" value="3266" />
-          <entry key="SilverStripe" value="3115" />
+          <entry key="SCSS" value="3815" />
+          <entry key="SilverStripe" value="3350" />
           <entry key="YAML" value="16" />
         </counts>
       </usages-collector>
@@ -80,91 +80,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/pages/_ChooseUsPage.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/ContentPage.ss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/_mobile-menu.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/elements/_hero.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/Page.ss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/MobileMenu.ss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/_footer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="75" column="28" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/MobileMenu.ss">
+        <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/Footer.ss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/pages/_ContentPage.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/_settings.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="77" column="21" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/app.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/controllers/ContentPageController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/pages/ContentPage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/pages/ContactUs.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -180,6 +147,7 @@
       <find>global-width</find>
       <find>h3</find>
       <find>header</find>
+      <find>button</find>
     </findStrings>
     <replaceStrings>
       <replace>carwashsolutions</replace>
@@ -206,7 +174,6 @@
         <option value="$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/SubHeader.ss" />
         <option value="$PROJECT_DIR$/themes/carwashsolutions/static/scss/_settings.scss" />
         <option value="$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/pages/_Page.scss" />
-        <option value="$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/elements/_hero.scss" />
         <option value="$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/pages/_ChooseUs.scss" />
         <option value="$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/ChooseUs.ss" />
         <option value="$PROJECT_DIR$/app/src/controllers/ContactUsController.php" />
@@ -220,8 +187,9 @@
         <option value="$PROJECT_DIR$/app/src/controllers/ContentPageController.php" />
         <option value="$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/pages/_ContentPage.scss" />
         <option value="$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/ContentPage.ss" />
-        <option value="$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/_mobile-menu.scss" />
+        <option value="$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/elements/_hero.scss" />
         <option value="$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/MobileMenu.ss" />
+        <option value="$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/_mobile-menu.scss" />
       </list>
     </option>
   </component>
@@ -313,9 +281,10 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="502" />
     <option name="y" value="23" />
-    <option name="width" value="1901" />
+    <option name="width" value="1122" />
     <option name="height" value="990" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -324,7 +293,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -466,6 +434,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -475,8 +444,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/themes/carwashsolutions/static/images/cms" />
       <recent name="$PROJECT_DIR$/themes/carwashsolutions/static/images" />
+      <recent name="$PROJECT_DIR$/themes/carwashsolutions/static/images/cms" />
       <recent name="$PROJECT_DIR$/themes" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -512,18 +481,19 @@
       <workItem from="1553511203998" duration="1516000" />
       <workItem from="1553571720092" duration="13173000" />
       <workItem from="1553657424613" duration="4505000" />
-      <workItem from="1553742584100" duration="1567000" />
+      <workItem from="1553742584100" duration="2836000" />
+      <workItem from="1553754832539" duration="7972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69041000" />
+    <option name="totallyTimeSpent" value="78282000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1901" height="990" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="990" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27649274" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27635783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -536,7 +506,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32962137" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -544,7 +514,7 @@
       <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2738031" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27635783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -616,13 +586,6 @@
     <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/elements/_block.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/Footer.ss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/pages/ChooseUsPage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -637,24 +600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/Header.ss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/elements/_hero.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -676,13 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/Page.ss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="97" column="15" lean-forward="true" selection-start-line="94" selection-start-column="7" selection-end-line="97" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -714,13 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/pages/_ChooseUsPage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/pages/_ContentPage.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -728,17 +663,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/_settings.scss">
+    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/pages/_ChooseUsPage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="21" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="21" />
+        <state relative-caret-position="660">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/app.scss">
+    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/ContentPage.ss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+        <state relative-caret-position="570">
+          <caret line="38" column="28" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -763,24 +698,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/ContentPage.ss">
+    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/Page.ss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/_mobile-menu.scss">
+    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/elements/_hero.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="75" column="28" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/MobileMenu.ss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+        <state relative-caret-position="345">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/_mobile-menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/_settings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2401">
+          <caret line="111" column="14" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/Footer.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
         </state>
       </provider>
     </entry>

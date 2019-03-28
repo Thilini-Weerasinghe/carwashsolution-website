@@ -1,14 +1,32 @@
 <div class="mobile-menu off-canvas position-left" id="mobileMenu" data-transition="overlap" data-off-canvas>
-    <div class="grid-container">
-        <div class="grid-x">
-            <div class="cell small-12 medium-6 large-6">
-                <div class="mobile-menu_left-content">
-
+    <%--<div class="grid-container">--%>
+        <div class="grid-x mobile-menu__content">
+            <div class="cell small-12 medium-6 large-6 left-content">
+                <%--<div class="mobile-menu__left-content">--%>
+                    <div class="image lazy b-loaded"
+                         style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/mb-bg.png')');">
+                    </div>
+                <div class="left-content__top-text">
+                    <h3> menu</h3>
+                    <h2> find out more & explore </h2>
                 </div>
+                <div class="left-content__bottom-text">
+                    <h2>1800 851 652</h2>
+                        <p>M: 0408 326 093
+                        PO Box 5105, South Melbourne, Vic 3205
+                        E: info@carwashsolutions.com.au</p>
+                    <ul class="social-link">
+                        <li><a href="#"> <i class="fab fa-facebook-f"></i> </a></li>
+                        <li><a href="#"> <i class="fab fa-instagram"></i> </a></li>
+                        <li><a href="#"> <i class="fab fa-youtube"></i> </a></li>
+                        <li><a href="#"> <i class="fab fa-linkedin-in"></i> </a></li>
+                    </ul>
+                </div>
+                <%--</div>--%>
             </div>
 
-            <div class="cell small-12 medium-6 large-6">
-                <div class="mobile-menu_right-content">
+            <div class="cell small-12 medium-6 large-6 right">
+                <div class="mobile-menu__right-content">
                     <ul class="mobile-menu__nav vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
                         <% loop $Menu(1) %>
                             <li>
@@ -32,30 +50,5 @@
                 </div>
             </div>
         </div>
-    </div>
-
-        <%--<li class="mobile-menu__list-main">--%>
-            <%--<a href="{$BaseHref}home" class="mobile-menu__list-main__link">Home</a>--%>
-            <%--<ul class="menu vertical nested">--%>
-                <%--<li><a href="{$BaseHref}home">Home Page</a></li>--%>
-                <%--<li><a href="{$BaseHref}chooseus-page">Choose US Page</a></li>--%>
-                <%--<li><a href="#">link 1.3</a></li>--%>
-                <%--<li><a href="#">link 1.4</a></li>--%>
-            <%--</ul>--%>
-        <%--</li>--%>
-        <%--<li class="mobile-menu__list-main">--%>
-            <%--<a href="{$BaseHref}chooseus-page" class="mobile-menu__list-main__link">choose US Page</a>--%>
-        <%--</li>--%>
-        <%--<li class="mobile-menu__list-main">--%>
-            <%--<a href="#" class="mobile-menu__list-main__link">link 3</a>--%>
-        <%--</li>--%>
-        <%--<li class="mobile-menu__list-main">--%>
-            <%--<a href="#" class="mobile-menu__list-main__link">link 4</a>--%>
-            <%--<ul class="menu vertical nested">--%>
-                <%--<li><a href="#">link 4.1</a></li>--%>
-                <%--<li><a href="#">link 4.2</a></li>--%>
-                <%--<li><a href="#">link 4.3</a></li>--%>
-                <%--<li><a href="#">link 4.4</a></li>--%>
-            <%--</ul>--%>
-        <%--</li>--%>
+    <%--</div>--%>
 </div>
