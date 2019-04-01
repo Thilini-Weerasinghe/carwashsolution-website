@@ -13,11 +13,11 @@
         </div>
         <div class="contact__details">
             <h2>1800 851 652</h2>
-            <p>M: 0408 326 093
-                PO Box 5105, South Melbourne, Vic 3205
+            <p>M: 0408 326 093<br>
+                PO Box 5105, South Melbourne, Vic 3205<br>
                 E: info@carwashsolutions.com.au</p>
         </div>
-        <div class="grid-x contact__contact-form">
+        <div class="grid-x contact__form">
             <div class="cell small-12 medium-6 large-6">
                 <h6> first name </h6><br>
                 <input type="text" name="first name" class="text-box">
@@ -66,7 +66,7 @@
                 <input type="text" name="first name" class="text-box">
             </div>
             <div class="cell small-12 medium-12 large-12">
-                <a href="#" > get Help <i class="fas fa-arrow-circle-right"></i> </a>
+                <a href="#" > <u>get Help </u> <i class="fas fa-arrow-circle-right"></i> </a>
             </div>
         </div>
     </div>

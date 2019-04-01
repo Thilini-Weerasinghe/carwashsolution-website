@@ -1,0 +1,45 @@
+.contact {
+  &__verticle-text {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 25%;
+  }
+
+  &__main-title {
+    h2 {
+      text-transform: uppercase;
+      font-size: 130px !important;
+      opacity:0.1;
+    }
+  }
+  &__sub-title {
+   h2 {
+     text-transform: uppercase;
+     font-size: 68.5px !important;
+   }
+  }
+
+  &__details {
+
+  }
+
+&__form {
+  justify-content: space-between;
+
+  .text-box {
+    border:none;
+    border-bottom-width: 1px;
+  }
+  a {
+    color: #1165DC;
+    font-size: 30px;
+    text-transform: uppercase;
+
+  }
+
+  h6{
+    text-transform: uppercase;
+  }
+
+}
+}
