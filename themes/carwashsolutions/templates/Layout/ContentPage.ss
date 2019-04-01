@@ -36,10 +36,14 @@
     </div>
 </div>
 
-<div class="projects block">
+<div class="carousel block">
     <div class="grid-container">
         <p> check out our work</p>
-        <h2> View Related Projects <i class="fas fa-arrow-circle-left"></i> <i class="fas fa-arrow-circle-right"></i></h2>
+        <%--<h2> View Related Projects <i class="fas fa-arrow-circle-left"></i> <i class="fas fa-arrow-circle-right"></i></h2>--%>
+     <div class="carousel__arrows js-carousel-arrow">
+         <h2> View Related Projects <i class="fas fa-arrow-circle-left"></i> <i class="fas fa-arrow-circle-right"></i></h2>
+        </div>
+
         <p> march 2018 </p>
         <h2> Car Wash Kew </h2>
     </div>

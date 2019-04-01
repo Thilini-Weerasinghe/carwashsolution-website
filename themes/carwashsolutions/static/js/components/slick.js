@@ -21,3 +21,8 @@ slides.each(function () {
         bLazy.revalidate();
     });
 });
+
+    function windowClose() {
+        window.open('','_parent','');
+        window.close();
+    }
