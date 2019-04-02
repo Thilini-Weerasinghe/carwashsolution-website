@@ -62,7 +62,7 @@
                 </div>
                 <div class="cell small-12 medium-12 large-12">
                     <h6> message </h6><br>
-                    <textarea name="message" rows="10" cols="30">
+                    <textarea name="message" rows="5" cols="30">
                 </textarea>
                 </div>
                 <div class="cell small-12 medium-12 large-12">

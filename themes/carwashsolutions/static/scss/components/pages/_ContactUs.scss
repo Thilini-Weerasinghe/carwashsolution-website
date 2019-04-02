@@ -30,12 +30,13 @@
   }
 
 &__form {
-  font-size:14px;
+  font-size:13px;
   justify-content: space-between;
 
-  .text-box {
-    border:none;
-    border-bottom-width: 1px;
+  .text-box , textarea {
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid grey;
   }
   a {
     color: #1165DC;
@@ -47,6 +48,7 @@
   h6{
     text-transform: uppercase;
     margin-top:20px;
+    margin-bottom: 0 !important;
   }
 
 }
