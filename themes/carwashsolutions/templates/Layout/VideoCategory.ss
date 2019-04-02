@@ -2,6 +2,9 @@
 
 <div class="videos block">
     <div class="grid-container">
+        <div class="videos__verticle-text">
+            <h2> Choose Video Category</h2>
+        </div>
         <div class="grid-x align-middle videos__content">
             <div class="cell small-10 small-offset-1 medium-10 medium-offset-1 large-8 large-offset2">
                 <h2 class="videos__title">Videos</h2>
@@ -33,7 +36,7 @@
                         <div class="cell small-12 medium-7 large-7 grid-x align-middle video-card__content">
                             <div class="small-12 grid-x wrapper">
                                 <div class="info">
-                                    <h4> Overview </h4>
+                                    <h4> case studies </h4>
                                 </div>
                                 <div class="arrow">
                                     <i class="fas fa-arrow-circle-right"></i>
@@ -50,7 +53,7 @@
                         <div class="cell small-12 medium-7 large-7 grid-x align-middle video-card__content">
                             <div class="small-12 grid-x wrapper">
                                 <div class="info">
-                                    <h4> Overview </h4>
+                                    <h4> innovation</h4>
                                 </div>
                                 <div class="arrow">
                                     <i class="fas fa-arrow-circle-right"></i>
@@ -67,7 +70,7 @@
                         <div class="cell small-12 medium-7 large-7 grid-x align-middle video-card__content">
                             <div class="small-12 grid-x wrapper">
                                 <div class="info">
-                                    <h4> Overview </h4>
+                                    <h4> Equipment layouts </h4>
                                 </div>
                                 <div class="arrow">
                                     <i class="fas fa-arrow-circle-right"></i>
