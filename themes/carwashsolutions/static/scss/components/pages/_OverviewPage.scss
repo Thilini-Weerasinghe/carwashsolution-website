@@ -1,0 +1,47 @@
+.video-holder {
+  .back-link {
+    a {
+      color:get-color('success');
+      text-transform: uppercase;
+    }
+  }
+
+  &__title {
+
+    font-size : 30px;
+    text-transform: uppercase;
+  }
+
+  &-card{
+    padding:20px;
+
+    &__image {
+      position:relative;
+      overflaw:hidden;
+
+      .play-icon{
+        position: relative;
+      }
+    }
+
+    &__text {
+      .date{
+        text-transform: uppercase;
+      }
+      .sub-title {
+        text-transform: none;
+      }
+    }
+  }
+
+
+  @include  breakpoint(medium){
+
+  }
+
+  @include breakpoint(large){
+    &__title {
+      font-size:68.5px;
+    }
+  }
+}
