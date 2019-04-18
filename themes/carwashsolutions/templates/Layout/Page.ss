@@ -3,6 +3,10 @@
     style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/hero.png')');"
     data-src="$resourceURL('themes/carwashsolutions/static/images/hero.png')">
 </div>
+    <div class="hero__video">
+
+
+    </div>
     <div class="grid-container">
         <div class="hero__content">
 
