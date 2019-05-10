@@ -10,6 +10,20 @@ padding:10% 20%;
 
   .submenu-toggle{
     background-color: blue;
+
+    //&::after {
+    //  display: block;
+    //  width: 0;
+    //  height: 0;
+    //  border: inset 6px;
+    //  content: '';
+    //  //border-bottom-width: 0;
+    //  //border-top-style: solid;
+    //  border-color: red;
+    //  top: 0;
+    //  bottom: 0;
+    //  margin: auto;
+    //}
   }
 }
 
@@ -25,7 +39,7 @@ padding:10% 20%;
       position: relative;
       //background-color: rgb(247,91,91);
       min-width: 200px;
-      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      //box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
       padding: 12px 20px;
       z-index: 1;
     }
