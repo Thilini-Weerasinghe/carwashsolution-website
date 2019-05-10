@@ -38,6 +38,9 @@
         width: 100%;
         padding-top: 52.473%;
       }
+      img:hover {
+        transform: scale(1.1);
+      }
 
       img {
         position:absolute;
@@ -48,6 +51,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        transition: transform 7s 0ms,filter 0.4s 0.5s,opacity 800ms cubic-bezier(0.785, 0.135, 0.15, 0.86) 0ms;
         @include bg-image;
       }
 
