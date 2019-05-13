@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc7a9f0-a999-49f5-8ee4-a3d84ae3466b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/android-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/android-icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/android-icon-36x36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/android-icon-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/android-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/android-icon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/apple-icon-114x114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/apple-icon-120x120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/apple-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/apple-icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/apple-icon-180x180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/apple-icon-57x57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/apple-icon-60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/apple-icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/apple-icon-76x76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/apple-icon-precomposed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/favicon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/ms-icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/ms-icon-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/ms-icon-310x310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico/ms-icon-70x70.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/carwashsolutions/static/fonts/fontello/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/fonts/fontello/demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/Favicon.ss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/Favicon.ss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/carwashsolutions/static/dist/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/dist/app.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/carwashsolutions/static/dist/common.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/dist/common.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/carwashsolutions/static/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/elements/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/elements/_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/carwashsolutions/static/sourcemaps/app.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/carwashsolutions/static/sourcemaps/app.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/Page.ss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/Page.ss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/VideoPage.ss" beforeDir="false" afterPath="$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/VideoPage.ss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,12 +50,12 @@
           <entry key="editorconfig" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="ico" value="1" />
-          <entry key="js" value="2" />
+          <entry key="js" value="4" />
           <entry key="json" value="1" />
           <entry key="php" value="22" />
           <entry key="png" value="1" />
-          <entry key="scss" value="49" />
-          <entry key="ss" value="42" />
+          <entry key="scss" value="50" />
+          <entry key="ss" value="44" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
@@ -86,11 +64,11 @@
           <entry key="CSS" value="1" />
           <entry key="Image" value="2" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="2" />
+          <entry key="JavaScript" value="4" />
           <entry key="PHP" value="22" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="SCSS" value="49" />
-          <entry key="SilverStripe" value="42" />
+          <entry key="SCSS" value="50" />
+          <entry key="SilverStripe" value="44" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -98,22 +76,22 @@
         <counts>
           <entry key="dummy" value="10" />
           <entry key="gitignore" value="43" />
-          <entry key="js" value="1" />
+          <entry key="js" value="11" />
           <entry key="json" value="2" />
           <entry key="php" value="146" />
-          <entry key="scss" value="6035" />
-          <entry key="ss" value="5374" />
+          <entry key="scss" value="6059" />
+          <entry key="ss" value="5574" />
           <entry key="yml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="1" />
+          <entry key="JavaScript" value="11" />
           <entry key="PHP" value="146" />
           <entry key="PLAIN_TEXT" value="53" />
-          <entry key="SCSS" value="6035" />
-          <entry key="SilverStripe" value="5374" />
+          <entry key="SCSS" value="6059" />
+          <entry key="SilverStripe" value="5574" />
           <entry key="YAML" value="16" />
         </counts>
       </usages-collector>
@@ -121,11 +99,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/Favicon.ss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/VideoPage.ss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="106" selection-start-line="5" selection-start-column="106" selection-end-line="5" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/Page.ss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/elements/_hero.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/js/components/playvideo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -178,7 +204,6 @@
         <option value="$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/pages/_ChooseUsPage.scss" />
         <option value="$PROJECT_DIR$/app/src/pages/ContentPage.php" />
         <option value="$PROJECT_DIR$/app/src/controllers/ContentPageController.php" />
-        <option value="$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/elements/_hero.scss" />
         <option value="$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/pages/_ContentPage.scss" />
         <option value="$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/ContentPage.ss" />
         <option value="$PROJECT_DIR$/themes/carwashsolutions/static/js/components/slick.js" />
@@ -192,7 +217,6 @@
         <option value="$PROJECT_DIR$/app/src/pages/OverviewPage.php" />
         <option value="$PROJECT_DIR$/app/src/controllers/OverviewPageController.php" />
         <option value="$PROJECT_DIR$/themes/carwashsolutions/static/scss/app.scss" />
-        <option value="$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/Page.ss" />
         <option value="$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/OverviewPage.ss" />
         <option value="$PROJECT_DIR$/app/src/controllers/BlogPageController.php" />
         <option value="$PROJECT_DIR$/app/src/pages/BlogPage.php" />
@@ -201,6 +225,11 @@
         <option value="$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/VideoCategory.ss" />
         <option value="$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/pages/_VideoCategory.scss" />
         <option value="$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/Favicon.ss" />
+        <option value="$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/VideoPage.ss" />
+        <option value="$PROJECT_DIR$/themes/carwashsolutions/static/js/components/playvideo.js" />
+        <option value="$PROJECT_DIR$/themes/carwashsolutions/static/js/common.js" />
+        <option value="$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/Page.ss" />
+        <option value="$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/elements/_hero.scss" />
       </list>
     </option>
   </component>
@@ -313,27 +342,20 @@
             <path>
               <item name="carwashsolutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="carwashsolutions" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="carwashsolutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="carwashsolutions" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="carwashsolutions" type="b2602c69:ProjectViewProjectNode" />
               <item name="carwashsolutions" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carwashsolutions" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carwashsolutions" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="carwashsolutions" type="b2602c69:ProjectViewProjectNode" />
@@ -367,8 +389,43 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="carwashsolutions" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="favicon.ico" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carwashsolutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carwashsolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="carwashsolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carwashsolutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carwashsolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="carwashsolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carwashsolutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carwashsolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="carwashsolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carwashsolutions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carwashsolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="carwashsolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="carwashsolutions" type="b2602c69:ProjectViewProjectNode" />
@@ -407,11 +464,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/video" />
       <recent name="$PROJECT_DIR$/themes/carwashsolutions/static/images/favicon.ico" />
       <recent name="$PROJECT_DIR$/themes/carwashsolutions/static/images/icon.ico" />
       <recent name="$PROJECT_DIR$/themes/carwashsolutions/static/images/cms" />
       <recent name="$PROJECT_DIR$/themes/carwashsolutions/static/images" />
-      <recent name="$PROJECT_DIR$/themes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/themes/carwashsolutions/static/images/icon.ico" />
@@ -460,12 +517,12 @@
       <workItem from="1556512966480" duration="2995000" />
       <workItem from="1557463701959" duration="3592000" />
       <workItem from="1557719447617" duration="3057000" />
-      <workItem from="1557740390749" duration="271000" />
+      <workItem from="1557740390749" duration="3005000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129943000" />
+    <option name="totallyTimeSpent" value="132677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -520,20 +577,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/_config/theme.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/shared/_test.scss" />
     <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/CriticalCSS.ss">
       <provider selected="true" editor-type-id="text-editor" />
@@ -602,13 +645,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/_config.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/elements/_hero.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/js/components/slick.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -701,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/Page.ss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="10" selection-start-line="23" selection-start-column="4" selection-end-line="26" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/pages/_Page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1590">
@@ -777,13 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/VideoPage.ss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="34" selection-start-line="16" selection-start-column="27" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/VideoCategory.ss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
@@ -827,7 +849,45 @@
     <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Includes/Favicon.ss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/VideoPage.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="106" selection-start-line="5" selection-start-column="106" selection-end-line="5" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/js/components/playvideo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/templates/Layout/Page.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/carwashsolutions/static/scss/components/elements/_hero.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,9 @@
 <div class="hero no-margin-top block">
+    <div class="hero__video js-hero-video ">
+      <video class="video" onloadeddata="this.play();" playsinline loop muted controls>
+          <source src="public/assets/video/Car.mp4" type="video/mp4">
+      </video>
+    </div>
 <div class="hero__image"
     style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/hero.png')');"
     data-src="$resourceURL('themes/carwashsolutions/static/images/hero.png')">
