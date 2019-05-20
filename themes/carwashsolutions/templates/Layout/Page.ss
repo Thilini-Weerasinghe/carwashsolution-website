@@ -4,14 +4,6 @@
           <source src="public/assets/video/Car.mp4" type="video/mp4">
       </video>
     </div>
-<%--<div class="hero__image"--%>
-    <%--style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/hero.png')');"--%>
-    <%--data-src="$resourceURL('themes/carwashsolutions/static/images/hero.png')">--%>
-<%--</div>--%>
-    <div class="hero__video">
-
-
-    </div>
     <div class="grid-container">
         <div class="hero__content">
 
