@@ -18,3 +18,17 @@
     </div>
 </div>
 
+<div class="filters">
+    <div class="grid-container">
+        <ul class="mid-nav">
+            <li > <a href="#" class="active"> All </a> </li>
+            <li> <a href="#"> Category 1  </a></li>
+            <li> <a href="#"> Category 2  </a></li>
+            <li> <a href="#"> Category 3 </a></li>
+            <li> <a href="#"> Category 4 </a></li>
+
+
+        </ul>
+    </div>
+</div>
+
