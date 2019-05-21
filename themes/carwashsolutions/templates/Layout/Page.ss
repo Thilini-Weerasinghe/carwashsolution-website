@@ -4,15 +4,19 @@
           <source src="public/assets/video/Car.mp4" type="video/mp4">
       </video>
     </div>
-    <div class="grid-container">
-        <div class="hero__content">
 
-            <h3> COME VISIT US TODAY</h3>
-            <h1> DISCOVER COMPLETE
-                CARWASH SOLUTIONS</h1>
-            <p>
-                We have everything your car wash needs.
-            </p>
+            <div class= "hero__content">
+                <div class="grid-container">
+                    <div class="grid-x align-middle">
+                        <div class="cell xxlarge-6">
+                            <h3> COME VISIT US TODAY</h3>
+                            <h1> DISCOVER COMPLETE
+                                CARWASH SOLUTIONS</h1>
+                            <p>
+                                We have everything your car wash needs.
+                            </p>
+                        </div>
+                    </div>
         </div>
     </div>
 </div>
@@ -46,33 +50,35 @@
 </div>
 
 <div class="instructions block">
+    <div class="grid-container">
     <div class="instructions__title">
         <h1> your journey</h1>
     </div>
     <div class="instructions__subtitle">
         <h3> Customer Service that puts you first </h3>
     </div>
-    <div class="grid-x steps">
-      <div class="cell small-8 small-offset-2  medium-4 large-2 large-offset-1">
+    <div class="grid-x grid-margin-x steps">
+      <div class="cell small-12 medium-4 large-4 ">
         <h4>Initial Setup </h4>
           <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
               euismod tincidunt ut laoreet dolore magna aliquam erat  volutpat. </p>
           <a href="#">  <u>Read more</u></a>
       </div>
-        <div class="cell small-8 small-offset-2   medium-4 large-2 large-offset-1">
+        <div class="cell small-12 medium-4 large-4 ">
             <h4>  Teaching you how  to run the machine </h4>
             <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
                 euismod tincidunt ut laoreet dolore magna aliquam erat  volutpat.
                 Ut wisi enim adminim veniam, quis nostrud exerci tation ullamcorper sus </p>
             <a href="#">  <u>Read more</u></a>
         </div>
-        <div class="cell small-8 small-offset-2   medium-4 large-2 large-offset-1">
+        <div class="cell small-12 medium-4 large-4 ">
             <h4>Constant support and  maintenance Services </h4>
             <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
                 euismod tincidunt ut laoreet dolore magna aliquam erat  volutpat.
                 Ut wisi enim adminim veniam, quis nostrud exerci tation ullamcorper sus </p>
             <a href="#"> <u>Read more</u></a>
         </div>
+    </div>
     </div>
 </div>
 

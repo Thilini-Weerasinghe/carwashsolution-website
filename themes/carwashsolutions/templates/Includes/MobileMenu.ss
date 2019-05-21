@@ -28,8 +28,6 @@
             <div class="cell small-12 medium-6 large-6 right">
                 <div class="mobile-menu__right-content">
                     <div class="cell small-12 medium-12 large-12 float-right exit " data-toggle="mobileMenu" > <i class="fas fa-times"></i>
-                        <%--<input type="button" value="Close this window" onclick="self.close()">--%>
-                        <%--<input type="button" value="Close this window" onclick="windowClose();"> --%>
                     </div>
                     <ol class="mobile-menu__nav vertical menu accordion-menu" data-accordion-menu data-submenu-toggle="true">
                         <% loop $Menu(1) %>

@@ -1,46 +1,46 @@
 .solution {
 
- &__title {
-   opacity: 0.1;
-   h1 {
-     text-transform: uppercase;
-     text-align: left;
-     font-size: 37px;
-   }
- }
+  &__title {
+    opacity: 0.1;
+    h1 {
+      text-transform: uppercase;
+      text-align: left;
+      font-size: 37px;
+    }
+  }
 
   &__right-image {
-    width:100%;
-    position:relative;
+    width: 100%;
+    position: relative;
     background-position: right;
-    right:0;
-    height:310px;
+    right: 0;
+    height: 310px;
     z-index: 0;
     @include bg-image
   }
 
-   &__content {
-     h3 {
-       font-size : 40px;
-     }
+  &__content {
+    h3 {
+      font-size: 40px;
+    }
 
-     ol {
-       line-height: 2.5;
-       font-size: 18px;
-     }
+    ol {
+      line-height: 2.5;
+      font-size: 18px;
+    }
 
-a {
-  text-transform: uppercase;
-  font-size: 20px;
-}
-   }
+    a {
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+  }
 }
 
 .instructions {
   text-align: center;
-  padding-top:30px;
+  padding-top: 30px;
   &__title {
-    opacity:0.1;
+    opacity: 0.1;
     h1 {
       font-size: 45px;
       text-align: center;
@@ -49,24 +49,28 @@ a {
   }
 
   &__subtitle {
-   h3 {
-     font-size: 20px;
-     text-align: center;
-   }
+    h3 {
+      font-size: 20px;
+      text-align: center;
+    }
   }
 
   .steps {
     text-align: center;
-    padding-top:50px;
-     h4 {
-       font-size: 25px;
-       text-align: center;
-     }
+    padding-top: 50px;
+    h4 {
+      font-size: 25px;
+      text-align: center;
+    }
     a {
       text-transform: uppercase;
       font-size: 20px;
-      color:#1165DC;
+      color: #1165DC;
       text-align: center;
+    }
+
+    .content-card {
+      margin: 0 15px;
     }
   }
 }
@@ -117,170 +121,171 @@ a {
   }
 }
 
-  @include breakpoint(medium) {
+@include breakpoint(medium) {
 
-    .solution {
+  .solution {
 
-      &__title {
-        padding-left:30px;
-        opacity: 0.1;
-        h1 {
-          text-align: left;
-          font-size: 80px;
-        }
-      }
-
-      &__right-image {
-        width:40%;
-        position:absolute;
-        height: 355px;
-      }
-
-      &__content {
-        padding-left:30px;
-        h3 {
-          font-size : 40px;
-        }
-
-        ol {
-          line-height: 2.5;
-          font-size: 18px;
-        }
-
-        a {
-          font-size: 30px;
-        }
+    &__title {
+      padding-left: 30px;
+      opacity: 0.1;
+      h1 {
+        text-align: left;
+        font-size: 80px;
       }
     }
 
-    .products {
+    &__right-image {
+      width: 40%;
+      position: absolute;
+      height: 355px;
+    }
 
-      &__title {
-        padding-top: 30px;
-        text-align: right;
-        width: 31%;
-        h3 {
-          font-size: 40px;
-        }
+    &__content {
+      padding-left: 30px;
+      h3 {
+        font-size: 40px;
       }
 
-      &__content {
+      ol {
+        line-height: 2.5;
         font-size: 18px;
-        width: 30%;
       }
 
-      &__right-image {
-        width: 50%;
-        position: relative;
-        height: 315px;
-      }
-
-      &__left-image {
-        width: 70%;
-        position: absolute;
-        height: 445px;
+      a {
+        font-size: 30px;
       }
     }
   }
-  @include breakpoint(large) {
-    .solution {
 
-      &__title {
-        padding-left:30px;
-        h1 {
-          text-align: left;
-          font-size: 130px;
-        }
-      }
+  .products {
 
-      &__right-image {
-        height: 660px;
-      }
-
-      &__content {
-        padding-left:30px;
-        h3 {
-          font-size : 40px;
-        }
-
-        ol {
-          line-height: 2.5;
-          font-size: 18px;
-        }
-
-        a {
-          font-size: 30px;
-        }
+    &__title {
+      padding-top: 30px;
+      text-align: right;
+      width: 31%;
+      h3 {
+        font-size: 40px;
       }
     }
 
-    .instructions {
-      text-align: center;
-      &__title {
-        opacity:0.1;
-        h1 {
-          font-size: 130px;
-          text-align: center;
-        }
+    &__content {
+      font-size: 18px;
+      width: 30%;
+    }
+
+    &__right-image {
+      width: 50%;
+      position: relative;
+      height: 315px;
+    }
+
+    &__left-image {
+      width: 70%;
+      position: absolute;
+      height: 445px;
+    }
+  }
+}
+
+@include breakpoint(large) {
+  .solution {
+
+    &__title {
+      padding-left: 30px;
+      h1 {
+        text-align: left;
+        font-size: 130px;
+      }
+    }
+
+    &__right-image {
+      height: 660px;
+    }
+
+    &__content {
+      padding-left: 30px;
+      h3 {
+        font-size: 40px;
       }
 
-      &__subtitle {
-        h3 {
-          font-size: 40px;
-          text-align: center;
-        }
+      ol {
+        line-height: 2.5;
+        font-size: 18px;
       }
 
-      .steps {
+      a {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .instructions {
+    text-align: center;
+    &__title {
+      opacity: 0.1;
+      h1 {
+        font-size: 130px;
         text-align: center;
-        padding-top:50px;
-        h4 {
-          font-size: 40px;
-          text-align: center;
-        }
-        a {
-          font-size: 30px;
-          text-align: center;
-        }
       }
     }
 
-
-    .products {
-      margin-top: 100px;
-      text-align: -webkit-right;
-      .video-link {
-        text-align: right;
-        a {
-
-        }
+    &__subtitle {
+      h3 {
+        font-size: 40px;
+        text-align: center;
       }
+    }
 
-      &__title {
-        padding-top: 30px;
-        text-align: right;
-        width: 31%;
-        h3 {
-          font-size: 40px;
-        }
+    .steps {
+      text-align: center;
+      padding-top: 50px;
+      h4 {
+        //font-size: 40px;
+        text-align: center;
       }
-
-      &__content {
-        font-size: 18px;
-        width: 30%;
-      }
-
-      &__right-image {
-        width: 40%;
-        position: relative;
-        height:535px;
-      }
-
-      &__left-image {
-        width: 43%;
-        position: absolute;
-        height: 650px;
+      a {
+        font-size: 30px;
+        text-align: center;
       }
     }
   }
+
+  .products {
+    margin-top: 100px;
+    text-align: -webkit-right;
+    .video-link {
+      text-align: right;
+      a {
+
+      }
+    }
+
+    &__title {
+      padding-top: 30px;
+      text-align: right;
+      width: 31%;
+      h3 {
+        font-size: 40px;
+      }
+    }
+
+    &__content {
+      font-size: 18px;
+      width: 30%;
+    }
+
+    &__right-image {
+      width: 40%;
+      position: relative;
+      height: 535px;
+    }
+
+    &__left-image {
+      width: 43%;
+      position: absolute;
+      height: 650px;
+    }
+  }
+}
+
 

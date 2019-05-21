@@ -55,7 +55,7 @@
         <%--</div>--%>
 
         <div class="grid-x grid-margin-x video-holder-content">
-            <div class="cell small-12 medium-4 large-4" href="#">
+            <div class="cell small-12 medium-6 large-4" href="#">
                 <div class="small-12 video-holder-card">
                     <div class="video-holder-card__image">
                         <img src="$resourceURL('themes/carwashsolutions/static/images/blog-hero.png') ">
@@ -71,7 +71,7 @@
                 </div>
             </div>
 
-        <div class="cell small-12 medium-4 large-4">
+        <div class="cell small-12 medium-6 large-4">
             <div class="video-holder-card">
                 <div class="video-holder-card__image">
                     <img src="$resourceURL('themes/carwashsolutions/static/images/blog-hero.png') ">
@@ -86,7 +86,7 @@
                 </div>
             </div>
         </div>
-        <div class="cell small-12 medium-4 large-4">
+        <div class="cell small-12 medium-6 large-4">
             <div class="video-holder-card">
                 <div class="video-holder-card__image">
                     <img src="$resourceURL('themes/carwashsolutions/static/images/blog-hero.png') ">
@@ -101,23 +101,7 @@
                 </div>
             </div>
         </div>
-        <div class="cell small-12 medium-4 large-4">
-            <div class="video-holder-card">
-                <div class="video-holder-card__image">
-                    <img src="$resourceURL('themes/carwashsolutions/static/images/blog-hero.png') ">
-                </div>
-                <div class="video-holder-card__text">
-                    <div class="date">
-                        <p>march 2018</p>
-                    </div>
-                    <div class="sub-title">
-                        <h3> Shine Auto Wash</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="cell small-12 medium-4 large-4">
+        <div class="cell small-12 medium-6 large-4">
             <div class="video-holder-card">
                 <div class="video-holder-card__image">
                     <img src="$resourceURL('themes/carwashsolutions/static/images/blog-hero.png') ">
@@ -133,7 +117,23 @@
             </div>
         </div>
 
-        <div class="cell small-12 medium-4 large-4">
+        <div class="cell small-12 medium-6 large-4">
+            <div class="video-holder-card">
+                <div class="video-holder-card__image">
+                    <img src="$resourceURL('themes/carwashsolutions/static/images/blog-hero.png') ">
+                </div>
+                <div class="video-holder-card__text">
+                    <div class="date">
+                        <p>march 2018</p>
+                    </div>
+                    <div class="sub-title">
+                        <h3> Shine Auto Wash</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cell small-12 medium-6 large-4">
             <div class="video-holder-card">
                 <div class="video-holder-card__image">
                     <img src="$resourceURL('themes/carwashsolutions/static/images/blog-hero.png') ">

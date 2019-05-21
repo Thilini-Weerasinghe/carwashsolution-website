@@ -70,7 +70,7 @@
 // ---------
 
 $global-font-size: 100%;
-$global-width: rem-calc(1400);
+$global-width: 100%;
 $global-lineheight: 1.5;
 $foundation-palette: (
     primary: white,
@@ -139,12 +139,12 @@ $grid-column-gutter: (
 );
 $grid-column-align-edge: true;
 $grid-column-alias: 'columns';
-$block-grid-max: 8;
+$block-grid-max: 12;
 
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
+$header-font-family: VinylRegular;
 $header-font-weight: 700;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
@@ -347,7 +347,7 @@ $card-border: 1px solid $light-gray;
 $card-shadow: none;
 $card-border-radius: $global-radius;
 $card-padding: $global-padding;
-$card-margin-bottom: $global-margin;
+//$card-margin-bottom: $global-margin;
 
 // 15. Close Button
 // ----------------
@@ -877,12 +877,18 @@ $grid-margin-gutters: (
     small: 20px,
     medium: 30px
 );
-$grid-padding-gutters: $grid-margin-gutters;
+//$grid-padding-gutters: $grid-margin-gutters;
+$grid-container-margin:0 !important ;
 $grid-container-padding: (
-    small: 60px
+        small: 60px,
+        medium:300px,
+        large:300px
+        //xlarge:400px,
+        //xxlarge:400px
+
 );
 $grid-container-max: $global-width;
-$xy-block-grid-max: 8;
+$xy-block-grid-max: 12;
 
 
 
