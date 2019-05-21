@@ -3,7 +3,7 @@
 <div class="main-blog block">
     <div class="grid-container">
         <div class="main-blog__title">
-            <h2 class="h1"> New Blog</h2>
+            <h2 class="h1"> News Blog</h2>
         </div>
         <div class="main-blog-card">
             <div class="main-blog-card__image"
@@ -12,7 +12,7 @@
             </div>
             <div class="main-blog-card-text">
                 <h6> feature Article</h6>
-                <a href="#" class="blog-link"> Supporting Car Wash Industry <i class="fas fa-arrow-circle-right"></i>
+                <a href="#" class="blog-link"> <h3>Supporting Car Wash Industry  <i class="fas fa-arrow-circle-right"></i> </h3>
                 </a>
             </div>
         </div>
@@ -62,10 +62,10 @@
                     </div>
                     <div class="video-holder-card__text">
                         <div class="date">
-                            <p>march 2018</p>
+                            <h5>march 2018</h5>
                         </div>
                         <div class="sub-title">
-                            <h3> Shine Auto Wash</h3>
+                            <h3> Shine Auto Wash <i class="fas fa-arrow-circle-right"></i>  </h3>
                         </div>
                     </div>
                 </div>
@@ -78,10 +78,10 @@
                 </div>
                 <div class="video-holder-card__text">
                     <div class="date">
-                        <p>march 2018</p>
+                        <h5>march 2018</h5>
                     </div>
                     <div class="sub-title">
-                        <h3> Shine Auto Wash</h3>
+                        <h3> Shine Auto Wash <i class="fas fa-arrow-circle-right"></i>  </h3>
                     </div>
                 </div>
             </div>
@@ -93,10 +93,10 @@
                 </div>
                 <div class="video-holder-card__text">
                     <div class="date">
-                        <p>march 2018</p>
+                        <h5>march 2018</h5>
                     </div>
                     <div class="sub-title">
-                        <h3> Shine Auto Wash</h3>
+                        <h3> Shine Auto Wash <i class="fas fa-arrow-circle-right"></i> </h3>
                     </div>
                 </div>
             </div>
@@ -108,26 +108,10 @@
                 </div>
                 <div class="video-holder-card__text">
                     <div class="date">
-                        <p>march 2018</p>
+                        <h5>march 2018</h5>
                     </div>
                     <div class="sub-title">
-                        <h3> Shine Auto Wash</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="cell small-12 medium-6 large-4">
-            <div class="video-holder-card">
-                <div class="video-holder-card__image">
-                    <img src="$resourceURL('themes/carwashsolutions/static/images/blog-hero.png') ">
-                </div>
-                <div class="video-holder-card__text">
-                    <div class="date">
-                        <p>march 2018</p>
-                    </div>
-                    <div class="sub-title">
-                        <h3> Shine Auto Wash</h3>
+                        <h3> Shine Auto Wash <i class="fas fa-arrow-circle-right"></i> </h3>
                     </div>
                 </div>
             </div>
@@ -140,10 +124,26 @@
                 </div>
                 <div class="video-holder-card__text">
                     <div class="date">
-                        <p>march 2018</p>
+                        <h5>march 2018</h5>
                     </div>
                     <div class="sub-title">
-                        <h3> Shine Auto Wash</h3>
+                        <h3> Shine Auto Wash <i class="fas fa-arrow-circle-right"></i> </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cell small-12 medium-6 large-4">
+            <div class="video-holder-card">
+                <div class="video-holder-card__image">
+                    <img src="$resourceURL('themes/carwashsolutions/static/images/blog-hero.png') ">
+                </div>
+                <div class="video-holder-card__text">
+                    <div class="date">
+                        <h5>march 2018</h5>
+                    </div>
+                    <div class="sub-title">
+                        <h3> Shine Auto Wash <i class="fas fa-arrow-circle-right"></i> </h3>
                     </div>
                 </div>
             </div>

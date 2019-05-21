@@ -1,7 +1,10 @@
 .main-blog {
   &__title {
     text-transform: uppercase;
-    //color:get-color('success');
+    padding-top:40px;
+    h2 {
+      font-size: 70px;
+    }
   }
 
   &-card {
@@ -66,11 +69,15 @@
 
     }
 
+    li:first-child {
+      padding-left:0;
+    }
+
     a {
       color: #1165DC;
       font-weight: bold;
       padding-left: 9px;
-      font-family: 'Vinyl', sans-serif;
+      font-family: VinylRegular;
     }
 
     a.active {

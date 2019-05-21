@@ -8,21 +8,21 @@
     padding: 10% 20%;
 
     .submenu-toggle {
-      background-color: blue;
+     background-color: transparent;
+    }
 
-      //&::after {
-      //  display: block;
-      //  width: 0;
-      //  height: 0;
-      //  border: inset 6px;
-      //  content: '';
-      //  //border-bottom-width: 0;
-      //  //border-top-style: solid;
-      //  border-color: red;
-      //  top: 0;
-      //  bottom: 0;
-      //  margin: auto;
-      //}
+    .submenu-toggle::after {
+      display: block;
+      width: 0;
+      height: 0;
+      border: inset 6px;
+      content: '';
+      border-bottom-width: 0;
+      border-top-style: solid;
+      border-color: blue transparent transparent;
+      top: 0;
+      bottom: 0;
+      margin: auto;
     }
   }
 
