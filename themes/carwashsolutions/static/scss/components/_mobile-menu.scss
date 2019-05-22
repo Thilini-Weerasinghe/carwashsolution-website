@@ -4,11 +4,35 @@
   width: 100%;
   height: 750px;
 
+  ol {
+    list-style: decimal;
+    color: #1165DC;
+  }
+
   &__nav {
     padding: 10% 20%;
 
+    li {
+      border-bottom: 1px solid #E6E7E8;
+    }
+
+    //    li:hover {
+    //     //background-color: #1165DC;
+    //     // color:white;
+    //    }
+    //a:hover {
+    //  //color:white;
+    //  font-weight:bold;
+    //
+    //}
+    .sub-menu {
+      li {
+        border-bottom: none;
+      }
+    }
+
     .submenu-toggle {
-     background-color: transparent;
+      background-color: transparent;
     }
 
     .submenu-toggle::after {
@@ -19,7 +43,7 @@
       content: '';
       border-bottom-width: 0;
       border-top-style: solid;
-      border-color: blue transparent transparent;
+      border-color: #1165DC transparent transparent;
       top: 0;
       bottom: 0;
       margin: auto;

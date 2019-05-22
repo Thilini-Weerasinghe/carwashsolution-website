@@ -3,9 +3,12 @@
          style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cta-bg.jpg')');"
          data-src="$resourceURL('themes/carwashsolutions/static/images/cta-bg.jpg')">
     </div>
-    <div class="footer__top-content">
-        <p class="p1"> let's have a chat </p>
-        <p>1800 851 652 or Email us at info@carwashsolutions.com.au</p>
+    <div class="grid-x align-middle footer__top-content">
+        <div class="grid-container">
+            <h5> let's have a chat </h5>
+            <h3> 1800 851 652 or Email us at
+                <a href="#">info@carwashsolutions.com.au </a></h3>
+        </div>
     </div>
     <div class="footer__content ">
         <div class="grid-container grid-x ">

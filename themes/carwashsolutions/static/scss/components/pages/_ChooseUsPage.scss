@@ -1,17 +1,23 @@
 .reasons {
+
+  .grid-container {
+    padding-right: 1.375rem;
+    padding-left: 1.375rem;
+  }
   text-align: left;
   .number {
-    font-size:50px;
-    text-align:left;
-    color:#1165DC;
+    font-size: 50px;
+    text-align: left;
+    color: #1165DC;
+    font-family: VinylRegular;
     p {
-      width:100%;
+      width: 100%;
       text-align: left;
     }
-  &__opt-num {
-  opacity : 0.1;
-    text-align: left;
-}
+    &__opt-num {
+      opacity: 0.1;
+      text-align: left;
+    }
   }
 
   &__content {
@@ -34,44 +40,51 @@
     text-align: right;
     .number {
       p {
-        width:100%;
+        width: 100%;
         text-align: right;
       }
     }
 
     p {
       text-align: right;
-      width:100%;
+      width: 100%;
+      font-family: 'Montserrat-Regular', sans-serif;
     }
   }
 
   &__left-image {
-    width:53%;
-    position:relative;
+    width: 53%;
+    position: relative;
     height: 240px;
     background-position: left;
     left: 0;
     z-index: 1;
     @include bg-image
   }
-@include breakpoint(medium) {
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  &__content {
-    img {
-      padding: 0 10px;
+  @include breakpoint(medium) {
+    h2 {
+      font-size: 1.5rem;
     }
-  }
 
-  &__left-image {
-    width:30%;
-    height: 350px;
-  }
+    &__content {
+      img {
+        padding: 0 10px;
+      }
+    }
 
-}
+    &__left-image {
+      width: 46%;
+      height: 350px;
+    }
+
+  }
   @include breakpoint(large) {
+
+    .grid-container {
+      padding-right: 9.375rem;
+      padding-left: 9.375rem;
+    }
+
     h2 {
       font-size: 2.5rem;
     }
@@ -81,20 +94,25 @@
         padding: 20px 10px;
       }
     }
+
+    &__left-image {
+      width: 30%;
+      height: 450px;
+    }
     .number {
-      font-size:150px;
+      font-size: 150px;
       text-align: center;
       p {
-        width:100%;
+        width: 100%;
         text-align: left;
       }
       &__opt-num {
-        opacity : 0.1;
+        opacity: 0.1;
         text-align: left;
       }
     }
     .cell {
-      padding : 40px 0;
+      padding: 40px 0;
     }
   }
 }
