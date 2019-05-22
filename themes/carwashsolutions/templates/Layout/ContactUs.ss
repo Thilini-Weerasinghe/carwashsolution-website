@@ -1,11 +1,25 @@
 <% include SubHeader %>
 
-<div class="contact block">
+<div class="verticle-title-block">
     <div class="grid-container">
-    <div class="contact__verticle-title">
-        <p> Contact Us </p>
+        <div class="js-height">
+        <div class="wrapper1 js-text">
+        <h2 class="v-title"> Contact Us</h2>
+        </div>
+        </div>
     </div>
+</div>
+<div class="contact next-title-block">
+    <div class="grid-container">
+    <%--<div class="contact__verticle-title">--%>
+        <%--<div class="wrapper1 v-text">--%>
+            <%--<h2> Contact Us </h2>--%>
+        <%--</div>--%>
+    <%--</div>--%>
+    <%--</div>--%>
+    <%--</div>--%>
         <div class="wrapper">
+            <%--<div class="grid-container">--%>
             <div class="contact__main-title">
                 <h2 class="h1"> hello </h2>
             </div>
@@ -97,7 +111,8 @@
                 <div class="cell small-12 medium-12 large-12">
                     <a href="#" > <u>get Help </u> <i class="fas fa-arrow-circle-right"></i> </a>
                 </div>
-            </div>
+            <%--</div>--%>
         </div>
+    </div>
     </div>
 </div>

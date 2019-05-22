@@ -1,0 +1,37 @@
+&.verticle-title-block {
+  position: absolute;
+  width: 100%;
+  padding-top: 190px;
+
+  .grid-container {
+    position: relative;
+  }
+  .js-height {
+    height: 234.016px;
+  }
+
+  .wrapper1{
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    -ms-transform: translateY(100%) rotate(-90deg);
+    transform: translateY(100%) rotate(-90deg);
+    z-index: 2;
+    transition: visibility 0s 200ms, opacity 200ms linear;
+
+    .js-text {
+      visibility: visible;
+      opacity: 1;
+      transition: opacity 200ms linear 0s;
+    }
+  }
+
+  @include breakpoint(medium){
+
+    .wrapper1{
+      left:150px;
+    }
+  }
+}
