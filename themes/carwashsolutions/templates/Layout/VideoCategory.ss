@@ -1,16 +1,23 @@
 <% include SubHeader %>
 
+<div class="verticle-title-block">
+    <div class="grid-container">
+        <div class="js-height">
+            <div class="wrapper1 js-text">
+                <h2 class="v-title"> Choose Video Category </h2>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="videos block">
     <div class="grid-container">
-        <div class="videos__verticle-text">
-            <h2> Choose Video Category</h2>
-        </div>
         <div class="grid-x align-middle videos__content">
             <div class="cell small-10 small-offset-1 medium-10 medium-offset-1 large-8 large-offset2">
                 <h2 class="videos__title">Videos</h2>
             </div>
             <div class="video-category">
-                <a href="#" class="grid-x video-card">
+                <a href="http://carwashsolutions.site/video-category/overview-page/" class="grid-x video-card">
                     <%--<div class="grid-x align-middle">--%>
                     <div class="cell small-12 medium-5 large-5 grid-x align-middle video-card__image">
                         <img src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png') ">
@@ -31,7 +38,7 @@
                     </div>
                     <%--</div>--%>
                 </a>
-                <a href="#" class="grid-x video-card">
+                <a href="http://carwashsolutions.site/video-category/overview-page/" class="grid-x video-card">
                     <%--<div class="grid-x align-middle">--%>
                     <div class="cell small-12 medium-5 large-5 grid-x align-middle video-card__image">
                         <img src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png') ">
@@ -52,7 +59,7 @@
                     </div>
                     <%--</div>--%>
                 </a>
-                <a href="#" class="grid-x video-card">
+                <a href="http://carwashsolutions.site/video-category/overview-page/" class="grid-x video-card">
                     <%--<div class="grid-x align-middle">--%>
                     <div class="cell small-12 medium-5 large-5 grid-x align-middle video-card__image">
                         <img src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png') ">
@@ -72,7 +79,7 @@
                     </div>
                     <%--</div>--%>
                 </a>
-                <a href="#" class="grid-x video-card">
+                <a href="http://carwashsolutions.site/video-category/overview-page/" class="grid-x video-card">
                     <%--<div class="grid-x align-middle">--%>
                     <div class="cell small-12 medium-5 large-5 grid-x align-middle video-card__image">
                         <img src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png') ">

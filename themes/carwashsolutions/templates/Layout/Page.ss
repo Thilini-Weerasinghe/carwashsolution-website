@@ -1,5 +1,5 @@
 <div class="hero no-margin-top block">
-    <div class="hero__video js-hero-video ">
+    <div class="hero__video cd ">
       <video class="video" onloadeddata="this.play();" playsinline loop muted controls>
           <source src="public/assets/video/Car.mp4" type="video/mp4">
       </video>
@@ -44,7 +44,7 @@
                 <li> Full access to Sonny’s Car Wash College </li>
                 <li> Helps you win every customer with marketing </li>
             </ol>
-            <a href="#">  <u>Read more</u></a>
+            <a href="#">  <h4> <u>Read more</u> </h4></a>
         </div>
     </div>
 </div>
@@ -62,21 +62,21 @@
         <h4>Initial Setup </h4>
           <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
               euismod tincidunt ut laoreet dolore magna aliquam erat  volutpat. </p>
-          <a href="#">  <u>Read more</u></a>
+          <a href="#">  <h4> <u>Read more</u> </h4></a>
       </div>
         <div class="cell small-12 medium-4 large-4 ">
             <h4>  Teaching you how  to run the machine </h4>
             <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
                 euismod tincidunt ut laoreet dolore magna aliquam erat  volutpat.
                 Ut wisi enim adminim veniam, quis nostrud exerci tation ullamcorper sus </p>
-            <a href="#">  <u>Read more</u></a>
+            <a href="#">  <h4> <u>Read more</u> </h4></a>
         </div>
         <div class="cell small-12 medium-4 large-4 ">
             <h4>Constant support and  maintenance Services </h4>
             <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
                 euismod tincidunt ut laoreet dolore magna aliquam erat  volutpat.
                 Ut wisi enim adminim veniam, quis nostrud exerci tation ullamcorper sus </p>
-            <a href="#"> <u>Read more</u></a>
+            <a href="#">  <h4> <u>Read more</u> </h4></a>
         </div>
     </div>
     </div>
@@ -89,7 +89,7 @@
              data-src="$resourceURL('themes/carwashsolutions/static/images/cms/car.png')">
         </div>
         <div class="video-link">
-            <a href ="#"> <u>watch video </u></a>
+            <a href="#">  <h6> <u> watch vedio </u> </h6></a>
         </div>
         <div class="products__title">
             <h3> Use the Best Car Wash

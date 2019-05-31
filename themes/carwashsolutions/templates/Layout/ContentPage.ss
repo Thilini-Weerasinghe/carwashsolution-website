@@ -1,10 +1,17 @@
 <% include SubHeader %>
 
+<div class="verticle-title-block">
+    <div class="grid-container">
+        <div class="js-height">
+            <div class="wrapper1 js-text">
+                <h2 class="v-title"> Satisfied Customer </h2>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="standards block">
     <div class="grid-container">
-        <div class="verticle-text">
-            <h2> Satisfied Customers </h2>
-        </div>
         <div class="wrapper">
             <div class="main-title">
                 <h2 class="h1"> speed , Quality , Confidence</h2>

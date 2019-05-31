@@ -31,7 +31,6 @@
       font-size: 35px;
       width: 100%;
       color: $white;
-      // letter-spacing: -0.07em;
       line-height: 1.0;
       margin-bottom:0 !important;
     }
@@ -49,23 +48,19 @@
     }
 
     .content {
-      max-width: 50%;
+     // max-width: 50%;
     }
   }
 
   @include breakpoint(medium) {
 
     &__content {
-      padding-top: 15%;
-
       h1 {
         font-size: 70px;
-        width: 60%;
       }
 
       p {
         font-size: 40px;
-        width: 30%;
       }
     }
   }
@@ -73,15 +68,10 @@
   @include breakpoint(large) {
 
     &__content {
-      padding-top: 15%;
+      //padding-top: 15%;
 
       h1 {
         font-size: 50px;
-        width: 100%;
-      }
-      p {
-        font-size: 40px;
-        width: 100%;
       }
     }
   }
