@@ -51,6 +51,88 @@
          <h2> View Related Projects <i class="fas fa-arrow-circle-left"></i> <i class="fas fa-arrow-circle-right"></i></h2>
         </div>
 
+        <div class="js-carousel carousel slick-initialized slick-slider">
+            <div class="slick-list draggable">
+                <div class="slick-track">
+                    <div class="slick-slide slick-cloned">
+                        <div>
+                           <a href class="cell carousel__item">
+                           <div class="carousel__image">
+                               <div class="image lazy"
+                                    style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')');"
+                                    data-src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')">
+                               </div>
+                           </div>
+                               <div class="carousel__content">
+
+                               </div>
+                           </a>
+                        </div>
+                    </div>
+                    <div class="slick-slide slick-cloned">
+                        <div>
+                            <a href class="cell carousel__item">
+                                <div class="carousel__image">
+                                    <div class="image lazy"
+                                         style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')');"
+                                         data-src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')">
+                                    </div>
+                                </div>
+                                <div class="carousel__content">
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick-slide slick-cloned">
+                        <div>
+                            <a href class="cell carousel__item">
+                                <div class="carousel__image">
+                                    <div class="image lazy"
+                                         style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')');"
+                                         data-src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')">
+                                    </div>
+                                </div>
+                                <div class="carousel__content">
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick-slide slick-cloned">
+                        <div>
+                            <a href class="cell carousel__item">
+                                <div class="carousel__image">
+                                    <div class="image lazy"
+                                         style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')');"
+                                         data-src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')">
+                                    </div>
+                                </div>
+                                <div class="carousel__content">
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slick-slide slick-cloned">
+                        <div>
+                            <a href class="cell carousel__item">
+                                <div class="carousel__image">
+                                    <div class="image lazy ">
+                                        <img src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png') ">
+                                    </div>
+                                </div>
+                                <div class="carousel__content">
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
         <p> march 2018 </p>
         <h2> Car Wash Kew </h2>
     </div>
