@@ -44,7 +44,7 @@
   z-index: 2;
   margin: 0 -10px;
 
-}
+
 
 .slick-slider {
   display: block;
@@ -53,9 +53,9 @@
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent;
 
-  .slick-list {
-    transform: translate3d(0, 0, 0);
-  }
+  //.slick-list {
+  //  transform: translate3d(0, 0, 0);
+  //}
 }
 
 .slick-list {
@@ -67,51 +67,60 @@
   line-height: 0;
 }
 
-.slick-track {
-  position: relative;
-  left: 0;
-  top: 0;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+//.slick-track {
+//  position: relative;
+//  left: 0;
+//  top: 0;
+//  display: block;
+//  margin-left: auto;
+//  margin-right: auto;
+//
+//
+//    opacity: 1;
+//    width: 3267px;
+//    transform: translate3d(-891px, 0px, 0px);
+//
+//  .slick-track:before {
+//    content: " ";
+//    display: table;
+//  }
+//}
 
-
-    opacity: 1;
-    width: 3267px;
-    transform: translate3d(-891px, 0px, 0px);
-}
-
-.slick-initialized {
-
-  .slick-slide {
-    display: block;
-  }
-}
+//.slick-initialized {
+//
+//  .slick-slide {
+//    display: block;
+//  }
+//}
 
 .slick-slide {
   float: left;
   height: 100%;
   min-height: 1px;
   display: none;
-  width: 297px;
+  width: 297px !important;
 }
 
-.carousel__item {
-  padding: 10px;
-  cursor: pointer;
-}
-
-.cell{
-  .carousel__item {
-    width:100%;
-    display:inline-block;
-  }
-}
+//.carousel__item {
+//  padding: 10px;
+//  cursor: pointer;
+//    width: 100%;
+//    display: inline-block;
+//}
+//
+//.cell{
+//  .carousel__item {
+//    width:100%;
+//    display:inline-block;
+//  }
+//}
 
 .carousel__image {
   position: relative;
-  width: 100%;
-  padding-top: 67.67%;
+ // width: 100%;
+  //padding-top: 67.67%;
+  height:300px;
+  width:500px;
   overflow: hidden;
   box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.5);
 }
@@ -127,5 +136,49 @@
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
+  }
+}
+}
+
+.newhero {
+  position: relative;
+  min-height: 800px;
+  overflow: hidden;
+
+  &-slider{
+    .newhero-slide {
+      position: relative;
+      width:100%;
+      height:auto;
+      min-height: 800px;
+
+      &__image {
+        //position: absolute;
+        //left:0;
+        //top:0;
+        //width:100%;
+        //height:800px;
+        //background-position: center;
+        //background-repeat: no-repeat;
+        //background-size: cover;
+        //z-index: 2;
+        //@include bg-image;
+
+        .image {
+          position: absolute;
+          left:0;
+          top:0;
+          width:100%;
+          height:500px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          z-index: 2;
+          @include bg-image;
+        }
+
+
+      }
+    }
   }
 }
