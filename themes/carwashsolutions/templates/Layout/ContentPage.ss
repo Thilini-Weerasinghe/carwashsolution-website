@@ -43,144 +43,54 @@
     </div>
 </div>
 
-<%--<div class="carousel block">--%>
-    <%--<div class="grid-container">--%>
-        <%--<p> check out our work</p>--%>
-        <%--<h2> View Related Projects <i class="fas fa-arrow-circle-left"></i> <i class="fas fa-arrow-circle-right"></i></h2>--%>
-     <%--<div class="carousel__arrows js-carousel-arrow">--%>
-         <%--<h2> View Related Projects <i class="fas fa-arrow-circle-left"></i> <i class="fas fa-arrow-circle-right"></i></h2>--%>
-        <%--</div>--%>
-
-        <%--<div class="js-carousel carousel">--%>
-            <%--<div class="slick-list draggable">--%>
-                <%--<div class="slick-track">--%>
-                    <%--<div class="slick-slide" >--%>
-                        <%--<div>--%>
-                           <%--<a href class="cell carousel__item">--%>
-                           <%--<div class="carousel__image">--%>
-                               <%--<div class="image lazy"--%>
-                                    <%--style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')');"--%>
-                                    <%--data-src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')">--%>
-                               <%--</div>--%>
-                           <%--</div>--%>
-                               <%--<div class="carousel__content">--%>
-
-                               <%--</div>--%>
-                           <%--</a>--%>
-                        <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="slick-slide " >--%>
-                        <%--<div>--%>
-                            <%--<a href class="cell carousel__item">--%>
-                                <%--<div class="carousel__image">--%>
-                                    <%--<div class="image lazy"--%>
-                                         <%--style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')');"--%>
-                                         <%--data-src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')">--%>
-                                    <%--</div>--%>
-                                <%--</div>--%>
-                                <%--<div class="carousel__content">--%>
-
-                                <%--</div>--%>
-                            <%--</a>--%>
-                        <%--</div>--%>
-                    <%--</div>--%>
-                    <%--<div class="slick-slide"  >--%>
-                        <%--<div>--%>
-                            <%--<a href class="cell carousel__item">--%>
-                                <%--<div class="carousel__image">--%>
-                                    <%--<div class="image lazy"--%>
-                                         <%--style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')');"--%>
-                                         <%--data-src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')">--%>
-                                    <%--</div>--%>
-                                <%--</div>--%>
-                                <%--<div class="carousel__content">--%>
-
-                                <%--</div>--%>
-                            <%--</a>--%>
-                        <%--</div>--%>
-                    <%--</div>--%>
-                     <%--<div class="slick-slide ">--%>
-                        <%--<div>--%>
-                            <%--<a href class="cell carousel__item">--%>
-                                <%--<div class="carousel__image">--%>
-                                    <%--<div class="image lazy"--%>
-                                         <%--style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')');"--%>
-                                         <%--data-src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')">--%>
-                                    <%--</div>--%>
-                                <%--</div>--%>
-                                <%--<div class="carousel__content">--%>
-
-                                <%--</div>--%>
-                            <%--</a>--%>
-                        <%--</div>--%>
-                    <%--</div>--%>
-                     <%--<div class="slick-slide">--%>
-                        <%--<div>--%>
-                            <%--<a href class="cell carousel__item">--%>
-                                <%--<div class="carousel__image">--%>
-                                    <%--<div class="image lazy ">--%>
-                                        <%--<img src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png') ">--%>
-                                    <%--</div>--%>
-                                <%--</div>--%>
-                                <%--<div class="carousel__content">--%>
-
-                                <%--</div>--%>
-                            <%--</a>--%>
-                        <%--</div>--%>
-                    <%--</div>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-
-        <%--<p> march 2018 </p>--%>
-        <%--<h2> Car Wash Kew </h2>--%>
-    <%--</div>--%>
-<%--</div>--%>
-
 <div class="carousel block">
     <div class="grid-container">
+        <div class="carousel__title">
+            <div class="grid-x align-middle align">
+                <div class="cell small-12 medium-12 large-12">
+                    <h3> check out our work </h3>
+                </div>
+                <div class="cell small-12 medium-12 large-12">
+                    <h2> view related projects </h2>
+                    <div class="carousel__arrows js-carousel-arrow"> </div>
+                </div>
+            </div>
+        </div>
     <div class="carousel js-carousel">
-        <div class="carousel-slide">
+        <a href class="cell carousel__item">
             <div class="carousel__image">
                 <div class="image lazy"
-                     style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')');"
-                     data-src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')">
+                     style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/car1.jpg')');"
+                     data-src="$resourceURL('themes/carwashsolutions/static/images/cms/car1.jpg')">
                 </div>
             </div>
-        </div>
-        <div class="carousel-slide">
+        </a>
+        <a href class="cell carousel__item">
             <div class="carousel__image">
                 <div class="image lazy"
-                     style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')');"
-                     data-src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')">
+                     style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/car2.jpg')');"
+                     data-src="$resourceURL('themes/carwashsolutions/static/images/cms/car2.jpg')">
                 </div>
             </div>
-        </div>
-        <div class="carousel-slide">
+        </a>
+        <a href class="cell carousel__item">
             <div class="carousel__image">
                 <div class="image lazy"
-                     style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')');"
-                     data-src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')">
+                     style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/car3.jpg')');"
+                     data-src="$resourceURL('themes/carwashsolutions/static/images/cms/car3.jpg')">
                 </div>
             </div>
-        </div>
-        <div class="carousel-slide">
+        </a>
+        <a href class="cell carousel__item">
             <div class="carousel__image">
                 <div class="image lazy"
-                     style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')');"
-                     data-src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')">
+                     style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/car4.jpg')');"
+                     data-src="$resourceURL('themes/carwashsolutions/static/images/cms/car4.jpg')">
                 </div>
             </div>
+        </a>
         </div>
-        <div class="carousel-slide">
-            <div class="carousel__image">
-                <div class="image lazy"
-                     style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')');"
-                     data-src="$resourceURL('themes/carwashsolutions/static/images/cms/carousel-1.png')">
-                </div>
-            </div>
-        </div>
+    </div>
+    </div>
 
-    </div>
-    </div>
-</div>
+

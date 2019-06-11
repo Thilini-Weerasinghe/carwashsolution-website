@@ -29,5 +29,7 @@
         <script src="$resourceURL('themes/carwashsolutions/static/dist/foundation.min.js')"></script>
         <script src="$resourceURL('themes/carwashsolutions/static/js/thirdparty/typeahead.bundle.js')"></script>
         <script src="$resourceURL('themes/carwashsolutions/static/dist/common.min.js')"></script>
+        <%--<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>--%>
+        <%--<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>--%>
     </body>
 </html>
