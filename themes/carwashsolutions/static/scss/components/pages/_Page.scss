@@ -301,18 +301,57 @@
   }
 }
 
+.image-block{
+  position: relative;
+  overflow: hidden;
 
-.bg-image {
-  position: absolute;
-  z-index: 1;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  &__content  {
+    h3 {
+      font-size: 40px;
+    }
 
-  &:before {
+    ol {
+      line-height: 2.5;
+      font-size: 18px;
+    }
+
+    a {
+      text-transform: uppercase;
+      font-size: 20px;
+    }
+  }
+
+  &__image {
     position: relative;
-    content: '';
-    width: 100%;
-    display: block;
+    text-align: right;
+    margin-bottom: 30px;
+    min-height:500px;
+    height:auto;
+
+    img {
+      width: 90%;
+      margin-right: -20px;
+      position: relative;
+      z-index: 9;
+      min-height:500px;
+      height:auto;
+    }
+  }
+
+  @include breakpoint(medium){
+    &__image {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 50%;
+      height: 100%;
+      margin-bottom: 0;
+
+      img {
+        width: 80%;
+        top: 80px;
+        margin-right: 0;
+      }
+    }
   }
 }
