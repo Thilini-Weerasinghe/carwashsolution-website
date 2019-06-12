@@ -39,6 +39,8 @@
 .instructions {
   text-align: center;
   padding-top: 30px;
+  position: relative;
+  overflow: hidden;
   &__title {
     opacity: 0.1;
     h1 {
@@ -54,6 +56,17 @@
       text-align: center;
     }
   }
+
+  &__bg-image {
+    left: 0;
+    bottom: 0;
+    width: 45%;
+
+    &:before {
+      padding-top: 135.53%;
+    }
+  }
+
 
   .steps {
     text-align: center;
@@ -288,3 +301,18 @@
   }
 }
 
+
+.bg-image {
+  position: absolute;
+  z-index: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &:before {
+    position: relative;
+    content: '';
+    width: 100%;
+    display: block;
+  }
+}

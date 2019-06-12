@@ -51,7 +51,7 @@
 </div>
 
 <div class="instructions block">
-    <div class="grid-container">
+    <div class="grid-container text-center">
         <div class="instructions__title">
             <h1> your journey</h1>
         </div>
@@ -102,6 +102,10 @@
             </div>
         </div>
     </div>
+    <span class="bg-image instructions__bg-image lazy b-loaded"
+          style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/svg/services-bg.svg')');"
+          data-src="$resourceURL('themes/carwashsolutions/static/images/svg/services-bg.svg')">
+        </span>
 </div>
 
 <div class="products block">
