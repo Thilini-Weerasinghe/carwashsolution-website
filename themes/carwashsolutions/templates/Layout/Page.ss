@@ -19,6 +19,7 @@
                     </div>
         </div>
     </div>
+    <span class="hero__wave-line"></span>
 </div>
 
 <div class="solution block ">

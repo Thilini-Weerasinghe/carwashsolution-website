@@ -1,15 +1,31 @@
 <footer class="footer">
-    <div class="footer__image"
-         style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cta-bg.jpg')');"
-         data-src="$resourceURL('themes/carwashsolutions/static/images/cta-bg.jpg')">
-    </div>
-    <div class="grid-x align-middle footer__top-content">
-        <div class="grid-container">
-            <h5> let's have a chat </h5>
-            <h3> 1800 851 652 or Email us at
-                <a href="#">info@carwashsolutions.com.au </a></h3>
+    <%--<div class="footer__image"--%>
+         <%--style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cta-bg.jpg')');"--%>
+         <%--data-src="$resourceURL('themes/carwashsolutions/static/images/cta-bg.jpg')">--%>
+    <%--</div>--%>
+    <%--<div class="grid-x align-middle footer__top-content">--%>
+        <%--<div class="grid-container">--%>
+            <%--<h5> let's have a chat </h5>--%>
+            <%--<h3> 1800 851 652 or Email us at--%>
+                <%--<a href="#">info@carwashsolutions.com.au </a></h3>--%>
+        <%--</div>--%>
+    <%--</div>--%>
+
+    <div class="block block-cta cta no-margin">
+        <span class="cta__overlay"></span>
+            <div class="cta__image lazy"
+                 style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cta-bg.jpg')');"
+                 data-src="$resourceURL('themes/carwashsolutions/static/images/cta-bg.jpg')">
+            </div>
+        <div class="grid-x align-middle footer__top-content">
+            <div class="grid-container">
+                <h5> let's have a chat </h5>
+                <h3> 1800 851 652 or Email us at
+                    <a href="#">info@carwashsolutions.com.au </a></h3>
+            </div>
         </div>
     </div>
+
     <div class="footer__content ">
         <div class="grid-container grid-x ">
             <div class="cell small-12 medium-6 large-6 ">
