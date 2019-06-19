@@ -9,9 +9,8 @@
         <div class="grid-container">
             <div class="grid-x align-middle">
                 <div class="cell xxlarge-6">
-                    <h3> COME VISIT US TODAY</h3>
-                    <h1> DISCOVER COMPLETE
-                        CARWASH SOLUTIONS</h1>
+                    <h3> come visit us today </h3>
+                    <h1> discover complete car wash solutions </h1>
                     <p>
                         We have everything your car wash needs.
                     </p>
@@ -26,9 +25,9 @@
     <div class="grid-container">
         <h2 class="text-large"> solutions</h2>
         <div class="small-12 medium-6 large-6 image-block__image">
-            <div class="image lazy b-loaded"
+            <img class="image lazy b-loaded"
                  style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/image-1.png')');"
-                 data-src="$resourceURL('themes/carwashsolutions/static/images/cms/image-1.png')"></div>
+                 data-src="$resourceURL('themes/carwashsolutions/static/images/cms/image-1.png')">
         </div>
         <div class="small-12 medium-6 large-6 image-block__content">
             <h3> 10 Reasons to choose us </h3>

@@ -121,9 +121,9 @@
   }
 
   &__right-image {
-    width: 100%;
+    width: 60%;
     position: relative;
-    height: 315px;
+    height: 330px;
     background-position: right;
     right: 0;
     z-index: 0;
@@ -259,7 +259,6 @@
       text-align: center;
       padding-top: 50px;
       h4 {
-        //font-size: 40px;
         text-align: center;
       }
       a {
@@ -387,12 +386,10 @@
         margin-bottom: 5px;
         counter-increment: list;
         list-style: none;
-        //list-style-type: none;
         position: relative;
 
         &:before {
-          //color: get-color('primary');
-          color:red;
+          color:#1265dc;
           content: counter(list) ".";
           left: -40px;
           position: absolute;
@@ -427,6 +424,7 @@
 
     img {
       width: 90%;
+    height: 585px;
       margin-right: -20px;
       position: relative;
       z-index: 9;
@@ -497,7 +495,7 @@
       margin-bottom: 0;
 
       img {
-        width: 80%;
+        width: 75%;
         top: 80px;
         margin-right: 0;
       }
@@ -534,7 +532,7 @@
     }
 
     &__bg-image {
-      width: 65%;
+      width: 30%;
       margin-right: 0;
     }
   }

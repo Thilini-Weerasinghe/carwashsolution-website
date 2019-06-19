@@ -1,6 +1,6 @@
 .mobile-menu {
   background: get-color('primary');
-  z-index: 2;
+  z-index: 99 !important;
   width: 100%;
   height: 750px;
 
