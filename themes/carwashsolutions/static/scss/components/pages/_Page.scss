@@ -38,7 +38,6 @@
 
 .instructions {
   text-align: center;
-  padding-top: 30px;
   position: relative;
   overflow: hidden;
   &__title {
@@ -84,6 +83,13 @@
 
     .content-card {
       margin: 0 15px;
+    }
+  }
+
+  @include breakpoint(xlarge) {
+
+    &__bg-image {
+      width: 30%;
     }
   }
 }
@@ -301,23 +307,116 @@
   }
 }
 
-.image-block{
+//.image-block{
+//  position: relative;
+//  overflow: hidden;
+//
+//  &__content  {
+//    h3 {
+//      font-size: 40px;
+//    }
+//
+//    ol {
+//      line-height: 2.5;
+//      font-size: 18px;
+//    }
+//
+//    a {
+//      text-transform: uppercase;
+//      font-size: 20px;
+//    }
+//  }
+//
+//  &__image {
+//    position: relative;
+//    text-align: right;
+//    margin-bottom: 30px;
+//    min-height:500px;
+//    height:auto;
+//
+//    img {
+//      width: 90%;
+//      margin-right: -20px;
+//      position: relative;
+//      z-index: 9;
+//      min-height:500px;
+//      height:auto;
+//    }
+//  }
+//
+//  @include breakpoint(medium){
+//    &__image {
+//      position: absolute;
+//      top: 0;
+//      right: 0;
+//      width: 50%;
+//      height: 100%;
+//      margin-bottom: 0;
+//
+//      img {
+//        width: 80%;
+//        top: 80px;
+//        margin-right: 0;
+//      }
+//    }
+//  }
+//
+//  @include breakpoint(large){
+//    &__image {
+//      min-height:600px;
+//
+//      img {
+//        width:72%;
+//      }
+//    }
+//  }
+//}
+
+
+.image-block {
   position: relative;
   overflow: hidden;
 
-  &__content  {
-    h3 {
-      font-size: 40px;
-    }
+  &__content {
 
     ol {
-      line-height: 2.5;
-      font-size: 18px;
+      margin-left: 25px;
+
+      li {
+        font-size: 18px;
+        margin-bottom: 5px;
+        counter-increment: list;
+        list-style: none;
+        //list-style-type: none;
+        position: relative;
+
+        &:before {
+          //color: get-color('primary');
+          color:red;
+          content: counter(list) ".";
+          left: -40px;
+          position: absolute;
+          text-align: right;
+          width: 26px;
+          font-family: 'Vinyl', sans-serif;
+        }
+
+        &:last-child {
+
+          &:before {
+            left: -35px;
+          }
+        }
+      }
     }
 
-    a {
-      text-transform: uppercase;
-      font-size: 20px;
+    h3 {
+      letter-spacing: -0.04em;
+      margin-bottom: 31px;
+    }
+
+    .btn {
+      margin-top: 15px;
     }
   }
 
@@ -325,20 +424,70 @@
     position: relative;
     text-align: right;
     margin-bottom: 30px;
-    min-height:500px;
-    height:auto;
 
     img {
       width: 90%;
       margin-right: -20px;
       position: relative;
       z-index: 9;
-      min-height:500px;
-      height:auto;
     }
   }
 
-  @include breakpoint(medium){
+  &__bg-image {
+    width: 70%;
+    top: calc(80px + 10%);
+    right: 0;
+    z-index: 1;
+    margin-right: -20px;
+
+    &:before {
+      padding-top: 121.616%;
+    }
+  }
+
+  &__right-image {
+    text-align: right;
+    margin-top: 30px;
+
+    img {
+      width: 250px;
+      max-width: 100%;
+    }
+  }
+
+  // ------------------ double-image ------------------
+
+  &--double-image {
+
+    .btn {
+      font-size: 18px;
+      letter-spacing: 0.05em;
+    }
+
+    .image-block__image {
+      text-align: left;
+
+      .image {
+        margin-left: -20px;
+        margin-right: 0;
+      }
+    }
+
+    .image-block__content {
+
+      h3 {
+        margin-top: 30px;
+        margin-bottom: 37px;
+        margin-left: auto;
+        margin-right: 0;
+        letter-spacing: -0.05em;
+        line-height: 1.05;
+      }
+    }
+  }
+
+  @include breakpoint(medium) {
+
     &__image {
       position: absolute;
       top: 0;
@@ -352,6 +501,75 @@
         top: 80px;
         margin-right: 0;
       }
+    }
+
+    &--double-image {
+
+      .btn {
+
+        &:before {
+          bottom: 5px;
+        }
+      }
+
+      .image-block__image {
+        left: 0;
+        right: auto;
+
+        .image {
+          margin-left: 0;
+        }
+      }
+
+      .image-block__content {
+        margin: 0 0 0 auto;
+      }
+    }
+
+    &__right-image {
+
+      img {
+        width: 390px;
+      }
+    }
+
+    &__bg-image {
+      width: 65%;
+      margin-right: 0;
+    }
+  }
+
+  @include breakpoint(large) {
+    overflow: visible;
+
+    &__content {
+
+      ol {
+        margin-left: 38px;
+
+        li {
+          margin-bottom: 12px;
+
+          &:before {
+            left:-50px;
+          }
+
+          &:last-child {
+
+            &:before {
+              left: -43px;
+            }
+          }
+        }
+      }
+
+      .btn {
+        margin-top: 32px;
+      }
+    }
+
+    &__right-image {
+      margin-top: 72px;
     }
   }
 }

@@ -1,0 +1,89 @@
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #1265dc;
+  padding: 5px 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 200ms, opacity 200ms linear;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  z-index: 50;
+
+  &__logo {
+    display: inline-block;
+
+    img {
+      width: 130px;
+      max-width: 100%;
+    }
+  }
+
+  &__phone {
+    color: $white;
+    text-transform: uppercase;
+    font-family: VinylRegular;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    margin-right: 10px;
+
+    a {
+      color: $white;
+      letter-spacing: -0.01em;
+
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+
+  &__hamburger {
+    z-index: 2;
+    color: $white;
+  }
+
+  .hamburger-align {
+    position: relative;
+    width: 48.38px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .hamburger-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      @include bg-image;
+    }
+  }
+
+  &.fixed {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 200ms linear;
+  }
+
+  @include breakpoint(medium) {
+
+    &__logo {
+
+      img {
+        width: auto;
+        height: 50px;
+      }
+    }
+
+    &__phone {
+      margin-top: 0;
+      font-size: 18px;
+    }
+  }
+}

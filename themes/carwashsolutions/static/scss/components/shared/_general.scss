@@ -12,3 +12,22 @@
     display: block;
   }
 }
+
+.text-large {
+  opacity: 0.1;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 37px;
+
+  @include breakpoint(medium){
+
+      font-size:80px ;
+
+  }
+
+  @include breakpoint(large){
+
+  font-size:130px ;
+
+  }
+}

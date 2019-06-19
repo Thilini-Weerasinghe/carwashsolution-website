@@ -1,11 +1,10 @@
-<header class="header">
+<header class="header js-header">
     <div class="grid-container">
         <div class="grid-x align-middle header__content">
             <div class="cell small-4 medium-6 large-6">
                 <div class="content-left">
                     <a href="#" class="logo">
                         <img src="{$ThemeDir}/static/images/cms/car-wash-logo.png"></a>
-                    </a>
                 </div>
             </div>
             <div class="cell small-8 medium-6 large-6">

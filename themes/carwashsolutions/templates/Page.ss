@@ -18,6 +18,7 @@
         <div class="off-canvas-content" data-off-canvas-content>
             <% include Header %>
             <% include MobileMenu %>
+            <% include StickyNav %>
 
 
             $Layout

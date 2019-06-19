@@ -1,7 +1,7 @@
 <div class="hero no-margin-top block">
     <div class="hero__video cd ">
         <video class="video" onloadeddata="this.play();" playsinline loop muted controls>
-            <source src="public/assets/video/Car.mp4" type="video/mp4">
+            <source src="public/assets/video/herovideo.mp4" type="video/mp4">
         </video>
     </div>
 
@@ -25,6 +25,11 @@
 <div class="block image-block">
     <div class="grid-container">
         <h2 class="text-large"> solutions</h2>
+        <div class="small-12 medium-6 large-6 image-block__image">
+            <div class="image lazy b-loaded"
+                 style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/image-1.png')');"
+                 data-src="$resourceURL('themes/carwashsolutions/static/images/cms/image-1.png')"></div>
+        </div>
         <div class="small-12 medium-6 large-6 image-block__content">
             <h3> 10 Reasons to choose us </h3>
             <ol>
@@ -41,43 +46,14 @@
             </ol>
             <a href="#"><h4><u>Read more</u></h4></a>
         </div>
-        <div class="small-12 medium-6 large-6 image-block__image">
-            <img class="image lazy b-loaded"
-                 style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/image-1.png')');"
-                 data-src="$resourceURL('themes/carwashsolutions/static/images/cms/image-1.png')">
-        </div>
-    </div>
-
-</div>
-<div class="solution block ">
-    <div class="solution__right-image"
-         style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/cms/image-1.png')');"
-         data-src="$resourceURL('themes/carwashsolutions/static/images/cms/image-1.png')">
-    </div>
-    <div class="grid-container">
-        <div class="solution__title">
-            <h1>solution</h1>
-        </div>
-        <div class="solution__content">
-            <h3> 10 Reasons to choose us </h3>
-            <ol>
-                <li> Vast Knowledge and experience</li>
-                <li> World Class Installation and Service</li>
-                <li>Support from the #1 Car Wash Equipment supplier in the world</li>
-                <li> Long term relationship with every customer</li>
-                <li> Straight forward design and site layouts</li>
-                <li> Trade qualiﬁed team</li>
-                <li> Hands on site training for staff</li>
-                <li> Leading Chemical Supplier</li>
-                <li> Full access to Sonny’s Car Wash College</li>
-                <li> Helps you win every customer with marketing</li>
-            </ol>
-            <a href="#"><h4><u>Read more</u></h4></a>
-        </div>
+        <span class="bg-image image-block__bg-image lazy"
+              style="background-image: url('$resourceURL('themes/carwashsolutions/static/images/svg/solutions-bg.svg')');"
+              data-src="$resourceURL('themes/carwashsolutions/static/images/svg/solutions-bg.svg')">
+        </span>
     </div>
 </div>
 
-<div class="instructions block">
+<div class="block instructions">
     <div class="grid-container text-center">
         <div class="instructions__title">
             <h1> your journey</h1>

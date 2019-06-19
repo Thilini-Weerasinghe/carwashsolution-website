@@ -1,4 +1,4 @@
-<header class="header subheader">
+<header class="header subheader js-header">
     <div class="grid-container">
         <div class="grid-x align-middle header__content">
             <div class="cell small-4 medium-6 large-6">

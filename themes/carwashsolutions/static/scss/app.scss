@@ -45,7 +45,7 @@
 // @include foundation-progress-element;
 // @include foundation-meter-element;
 // @include foundation-slider;
-// @include foundation-sticky;
+@include foundation-sticky;
 // @include foundation-reveal;
 // @include foundation-switch;
 @include foundation-table;
@@ -69,6 +69,7 @@
 @import "components/shared/slick";
 @import "components/shared/fonts";
 @import "components/shared/general";
+@import "components/shared/sticky-nav";
 
 @import "components/header";
 @import "components/mobile-menu";
